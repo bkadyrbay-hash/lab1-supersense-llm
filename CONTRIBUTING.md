@@ -1,81 +1,52 @@
-# Как мы работаем (шпаргалка для A и B)
+# Team workflow
 
-Главное правило: **`main` всегда рабочий**. В `main` попадает только то, что прошло Pull Request
-и одобрено напарницей. Прямой push в `main` запрещён настройками репозитория.
+This lab is done by two students. `main` always contains working code: changes reach it only
+through a pull request reviewed by the other team member (direct pushes are blocked).
 
-## 1. Один раз: подготовка
+## Who does what
 
-1. Аккаунт на GitHub + принять приглашение в репозиторий (придёт на почту).
-2. В Colab: *File → Open notebook → вкладка GitHub* → вставить ссылку на репозиторий → видны все ноутбуки
-   (выбрать нужную ветку в выпадающем списке). Новый ноутбук начинаем с копии `notebooks/_template.ipynb`.
-3. (Если работаешь и локально) `git clone https://github.com/bkadyrbay-hash/lab1-supersense-llm.git`
+| Student A — in-context learning | Student B — LoRA fine-tuning | Both |
+|---|---|---|
+| `src/data.py`, `src/prompts.py`, `src/label_scoring.py` | `src/evaluate.py` | `results/metrics.csv` (append only) |
+| `notebooks/00_data_exploration.ipynb`, `01_icl.ipynb` | `notebooks/02_lora.ipynb`, `03_camembert.ipynb` | `results/predictions/`, `results/figures/` |
+| `docs/model_choice.md`, `docs/prompt_literature.md` | `docs/lora_notes.md`, `04_error_analysis.ipynb` (skeleton) | error analysis and method comparison |
+| `README.md`, `requirements.txt` | | final report |
 
-## 2. Цикл работы над одним этапом (например, A4)
+Each file has one owner; if you need a change in a file you do not own, ask in the pull request.
 
-```
-1. Создать ветку        →  2. Работать в Colab     →  3. Сохранить в ветку
-4. Открыть Pull Request →  5. Напарница смотрит    →  6. Merge в main
-```
+## Working on a task
 
-**1. Ветка.** На странице репо: кнопка с названием ветки (`main ▾`) → вписать `a/A4-icl-baseline`
-(или `b/B2-lora-baseline`) → *Create branch from main*. Одна ветка = один этап.
+1. **Branch** — on GitHub, branch menu (`main ▾`) → type `a/<task>` or `b/<task>`
+   (e.g. `a/icl-baseline`, `b/lora-baseline`) → *Create branch from main*. One branch per task.
+2. **Colab** — *File → Open notebook → GitHub*, paste the repository URL, pick your branch.
+   The first cell clones the repository so `src/` is importable; set `BRANCH` there to use code
+   that is not merged yet. New notebooks start as a copy of `notebooks/_template.ipynb`.
+3. **Save the notebook** — *Edit → Clear all outputs*, then *File → Save a copy in GitHub*:
+   your branch, path `notebooks/<name>.ipynb`, untick "Include a link to Colab".
+4. **Other files** (`.py`, `.csv`, `.png`, `.md`) — press `.` on the repository page to open github.dev,
+   or *Add file → Upload files* on your branch, or use git locally (below).
+5. **Pull request** — *Compare & pull request*, fill in the template, request a review from your teammate.
+6. **Review** — read the code, ask about anything unclear, approve. Then *Squash and merge*.
 
-**2. Colab.** Открыть ноутбук из GitHub (из **своей** ветки). Первая ячейка сама клонирует репо
-и подтягивает `src/`. Если нужен ещё не смёрженный код из своей ветки — в первой ячейке `BRANCH = "a/A4-…"`.
+## Conventions
 
-**3. Сохранить ноутбук в GitHub.**
-   - *Edit → Clear all outputs* (чтобы diff был читаемым и файл маленьким);
-   - *File → Save a copy in GitHub* → репозиторий, **своя ветка**, путь `notebooks/01_icl.ipynb`,
-     сообщение: `[A4] zero-shot ICL baseline on rand-dev`. Галочку «Include a link to Colab» снять.
+- `results/metrics.csv` is append-only and written by `log_experiment()`.
+  `.gitattributes` sets `merge=union` on it, so rows added in two branches merge without conflicts.
+- Prediction files are named `{method}__{config_id}__{split}.csv`, so two runs never overwrite each other.
+- Dataset, model weights and LoRA adapters are not committed (`.gitignore`); adapters go to Google Drive.
+- `rand-dev` is used for every tuning decision; `rand-test` and `freq-test` are run once, on the final configurations.
+- All hyperparameters of a notebook live in its `CONFIG` cell; seed is 42 everywhere.
+- Every pull request runs `ruff` (unused imports and variables, undefined names).
+- Commit messages: short, imperative, in English — `Add zero-shot ICL baseline on rand-dev`.
 
-**Файлы `.py`, `.csv`, `.png`, `.md`** из Colab так не сохранить. Варианты:
-   - на GitHub нажать клавишу `.` → откроется веб-VS Code (github.dev) → правка/загрузка файлов
-     (перетащить CSV/PNG, скачанные из Colab) → *Source Control* → commit в свою ветку;
-   - или в репо *Add file → Upload files* → выбрать свою ветку;
-   - или локально через `git` (см. ниже).
-
-**4. Pull Request.** GitHub сам предложит *Compare & pull request*. Заполнить шаблон
-(что сделано, какие строки добавлены в `metrics.csv`). Reviewer — напарница.
-
-**5. Ревью** (10 минут, не больше): прочитать код, задать вопрос в комментарии, если строка непонятна —
-так обе сможем объяснить весь код преподавателю. *Approve*.
-
-**6. Merge** — кнопка *Squash and merge*. Ветку удалить (GitHub предлагает).
-
-## 3. Правила, которые экономят нервы
-
-- **Чужой файл не редактируем** (владельцы — в таблице ниже). Нужна правка — пишем напарнице
-  или открываем PR и отмечаем её.
-
-  | A (ICL) | B (LoRA) | обе |
-  |---|---|---|
-  | `README.md`, `requirements.txt`, `.gitignore` | `src/evaluate.py` | `results/metrics.csv` (только дописываем) |
-  | `src/data.py`, `src/prompts.py`, `src/label_scoring.py` | `notebooks/02_lora.ipynb`, `03_camembert.ipynb` | `results/predictions/`, `results/figures/` |
-  | `notebooks/00_data_exploration.ipynb`, `01_icl.ipynb` | `notebooks/04_error_analysis.ipynb` (каркас) | анализ в `04_error_analysis` |
-  | `docs/model_choice.md`, `docs/prompt_literature.md` | `docs/lora_notes.md` | |
-- **`results/metrics.csv` — только дописываем строки** через `log_experiment()`, ничего не удаляем.
-  Git настроен (`.gitattributes`, `merge=union`) так, что строки из двух веток склеиваются без конфликта.
-- **Имена файлов предсказаний уникальные**: `{method}__{config_id}__{split}.csv` — конфликтов не бывает.
-- Датасет, веса и LoRA-адаптеры **не коммитим** (`.gitignore`); адаптеры — на Google Drive.
-- `freq-test` / `rand-test` — только на этапах A8 / B7, один раз.
-- Перед PR проверка `ruff` запускается автоматически (вкладка *Actions*): ловит неиспользуемые импорты
-  и переменные — преподаватель обещал снимать за «useless instructions».
-
-## 4. Локально через git (по желанию)
+## Using git locally (optional)
 
 ```bash
-git switch main && git pull                 # свежий main
-git switch -c a/A6-label-scoring            # новая ветка
-# ... правки ...
+git switch main && git pull
+git switch -c a/label-scoring
 git add src/label_scoring.py
-git commit -m "[A6] log-prob scoring of single-token labels"
-git push -u origin a/A6-label-scoring       # затем PR на сайте
+git commit -m "Add log-prob scoring of single-token labels"
+git push -u origin a/label-scoring
 ```
 
-Если ветка отстала от `main` (напарница уже смёржила что-то): на странице PR кнопка *Update branch*.
-
-## 5. Сообщения коммитов
-
-`[ID этапа] что сделано, в повелительном наклонении`, на английском:
-`[A5] add 5/25/50-shot runs on rand-dev`, `[B3] compare q,v vs all-linear LoRA targets`,
-`[shared] fix macro-F1 on missing labels`.
+If your branch falls behind `main`, click *Update branch* on the pull request page.
