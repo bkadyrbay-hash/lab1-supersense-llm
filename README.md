@@ -19,6 +19,7 @@ Hyperparameters are tuned on `rand-dev` only; final results are reported once on
 |---|---|---|
 | `00_data_exploration` | label distributions per split, input properties | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/00_data_exploration.ipynb) |
 | `01_icl` | prompting experiments (language, #shots, shot selection, lemma, generation vs label log-prob) | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/01_icl.ipynb) |
+| `01b_icl_error_analysis` | errors of the best ICL configuration: hard classes, confusions, effect of the lemma | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/01b_icl_error_analysis.ipynb) |
 | `02_lora` | QLoRA: target modules, generation vs classification head, lemma | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/02_lora.ipynb) |
 | `03_camembert` | optional encoder baseline | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/03_camembert.ipynb) |
 | `04_error_analysis` | confusion matrices, per-class F1, errors shared by methods | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/04_error_analysis.ipynb) |
