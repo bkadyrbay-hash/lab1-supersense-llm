@@ -1,0 +1,26 @@
+# Dataset (downloaded automatically by src/data.py)
+data/
+*.gz
+
+# Model weights, LoRA adapters, training outputs (keep them on Google Drive)
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+*.pt
+wandb/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+.ruff_cache/
+
+# Internal planning notes (kept outside the repo)
+PLAN.md

@@ -1,0 +1,6 @@
+# metrics.csv is append-only: when both of us add rows in parallel branches,
+# keep both sides instead of raising a merge conflict.
+results/metrics.csv merge=union
+
+# Show notebook diffs as text on GitHub, not as a binary blob.
+*.ipynb linguist-language=Jupyter\ Notebook

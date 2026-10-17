@@ -1,0 +1,5 @@
+line-length = 110
+
+[lint]
+# Pyflakes (unused imports/variables, undefined names) + syntax errors only: no style nitpicking.
+select = ["F", "E9"]
