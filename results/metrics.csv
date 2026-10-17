@@ -1,0 +1,1 @@
+date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_selection,lora_targets,head,decoding,epochs,accuracy_super,macro_f1_super,accuracy_hyper,macro_f1_hyper,invalid_rate,n,runtime_min,notes
