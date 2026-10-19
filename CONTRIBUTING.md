@@ -8,7 +8,7 @@ through a pull request reviewed by the other team member (direct pushes are bloc
 | Student A (in-context learning) | Student B (LoRA fine-tuning) | Both |
 |---|---|---|
 | `src/data.py`, `src/prompts.py`, `src/label_scoring.py` | `src/evaluate.py` | `results/metrics.csv` (append only) |
-| `notebooks/00_data_exploration.ipynb`, `01_icl.ipynb` | `notebooks/02_lora.ipynb`, `03_camembert.ipynb` | `results/predictions/`, `results/figures/` |
+| `notebooks/00_data_exploration.ipynb`, `01_icl.ipynb`, `01b_icl_error_analysis.ipynb` | `notebooks/02_lora.ipynb`, `03_camembert.ipynb` | `results/predictions/`, `results/figures/` |
 | `docs/model_choice.md`, `docs/prompt_literature.md` | `docs/lora_notes.md`, `04_error_analysis.ipynb` (skeleton) | error analysis and method comparison |
 | `README.md`, `requirements.txt` | | final report |
 
