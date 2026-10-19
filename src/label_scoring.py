@@ -25,13 +25,15 @@ def score_labels(model, input_ids: torch.Tensor, labels_ids: list[list[int]], ca
     """
     cached = cache.get_seq_length() if cache is not None else 0
     out = model(input_ids[:, cached:], past_key_values=cache, use_cache=True)
-    cache, first_logprobs = out.past_key_values, out.logits[0, -1].log_softmax(-1)
-    prompt_len = input_ids.shape[1]
-    scores = []
-    for ids in labels_ids:
-        # First token: read from the prompt's last position; following tokens: one short forward pass.
-        rest = torch.tensor(ids[1:], device=model.device)
-        logits = model(torch.tensor([ids[:-1]], device=model.device), past_key_values=cache, use_cache=True).logits[0]
-        scores.append(first_logprobs[ids[0]].item() + logits.log_softmax(-1).gather(1, rest[:, None]).sum().item())
-        cache.crop(prompt_len)  # forget this label's tokens before scoring the next one
-    return scores
+    cache, first_logprobs = out.past_key_values, out.logits[0, -1].float().log_softmax(-1)
+    # The first token of each label is read at the prompt's last position. The following tokens of all labels are
+    # scored in one forward pass: the prompt cache is repeated once per label, and labels are right-padded
+    # (under causal attention, padding placed after a label cannot change the scores of its own tokens).
+    rest = [ids[1:] for ids in labels_ids]
+    longest = max(len(r) for r in rest)
+    inputs = torch.tensor([ids[:-1] + [ids[-1]] * (longest - len(r)) for ids, r in zip(labels_ids, rest)],
+                          device=model.device)
+    cache.batch_repeat_interleave(len(labels_ids))
+    logprobs = model(inputs, past_key_values=cache).logits.float().log_softmax(-1)
+    return [first_logprobs[ids[0]].item() + logprobs[i, torch.arange(len(r)), torch.tensor(r)].sum().item()
+            for i, (ids, r) in enumerate(zip(labels_ids, rest))]
