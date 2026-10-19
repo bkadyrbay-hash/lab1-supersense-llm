@@ -4,37 +4,46 @@
 
 Assigning a coarse semantic class to a noun sense is the *supersense* problem introduced for WordNet nouns
 by Ciaramita & Johnson (2003), who already framed it as classifying senses of unknown nouns. Our setting
-differs in that each sense is given by its **dictionary definition** (Angleraud et al., 2025), with the taxonomy of
-Barque et al. (2020). An important property of the data (see `00_data_exploration`): **no lemma of a dev/test set
-appears in the training set** (0 % overlap), so demonstrations can never contain the same word as the query.
+differs in that each sense is given by its dictionary definition (Angleraud et al., 2025), with the taxonomy of
+Barque et al. (2020). An important property of the data (see `00_data_exploration`): no lemma of a dev/test set
+appears in the training set (0 % overlap), so demonstrations can never contain the same word as the query.
 
 ## Findings we use
 
 | # | Source | Finding | What we do |
 |---|---|---|---|
 | 1 | Brown et al. (2020) | Instruction + a few input/label demonstrations lets a model perform a task without training; accuracy grows with the number of shots. | Compare 0 / 5 / 25 / 50 demonstrations. |
-| 2 | Min et al. (2022) | Demonstrations mostly help by showing the **label space**, the **input distribution** and the **output format**; whether their labels are correct matters surprisingly little. | Always list the 25 labels with a short gloss in the instruction, so even 0-shot sees the full label space; give demonstrations as chat turns (user = input, assistant = label only) to fix the format. |
-| 3 | Zhao et al. (2021) | Few-shot predictions are biased towards labels that are **frequent** or **recent** in the prompt (majority / recency bias). | `by_class` selection: demonstrations balanced over labels, in a shuffled order (seeded), instead of a random sample dominated by frequent classes. |
-| 4 | Lu et al. (2022) | Performance varies a lot with the **order** of the same demonstrations. | Keep a fixed seed so all configurations of a comparison use the same order; report it as a limitation (no time to average over orders). |
-| 5 | Gao et al. (2021); Liu et al. (2022) | Choosing demonstrations **similar to the query** (nearest neighbours in an embedding space) beats random demonstrations. | *Extra idea:* a `similar` selection that picks, for each query, the training definitions closest to its definition (TF-IDF over character n-grams: cheap, no GPU). |
-| 6 | Lai et al. (2023) | For non-English inputs, ChatGPT performs better or comparably with **English task descriptions** than with descriptions in the target language. | Compare `en` (English instruction + English labels) vs `fr` (French instruction + French label names) for the same French inputs. |
+| 2 | Min et al. (2022) | Demonstrations mostly help by showing the label space, the input distribution and the output format; whether their labels are correct matters surprisingly little. | Always list the 25 labels with a short gloss in the instruction, so even 0-shot sees the full label space; give demonstrations as chat turns (user = input, assistant = label only) to fix the format. |
+| 3 | Zhao et al. (2021) | Few-shot predictions are biased towards labels that are frequent or recent in the prompt (majority / recency bias). | `by_class` selection: demonstrations balanced over labels, in a shuffled order (seeded), instead of a random sample dominated by frequent classes. |
+| 4 | Lu et al. (2022) | Performance varies a lot with the order of the same demonstrations. | Keep a fixed seed so all configurations of a comparison use the same order; report it as a limitation (no time to average over orders). |
+| 5 | Gao et al. (2021); Liu et al. (2022) | Choosing demonstrations similar to the query (nearest neighbours in an embedding space) beats random demonstrations. | Our addition: a `similar` selection that picks, for each query, the training definitions closest to its definition (TF-IDF over character n-grams: cheap, no GPU). |
+| 6 | Lai et al. (2023) | For non-English inputs, ChatGPT performs better or comparably with English task descriptions than with descriptions in the target language. | Compare `en` (English instruction + English labels) vs `fr` (French instruction + French label names) for the same French inputs. |
 | 7 | Holtzman et al. (2021) | Scoring answers by their probability suffers from *surface form competition* (several strings for the same answer, unequal lengths). | For label scoring, use the full-label log-probability and keep labels short and unambiguous; compare with free generation. |
 | 8 | Sun et al. (2023) | Asking the model for clues and reasoning before the label (CARP) improves LLM text classification. | Not used by default (much slower generation on a T4); possible extension if time allows. |
 
 ## Prompt design (implemented in `src/prompts.py`)
 
 ```
-system:    You are an expert lexicographer. [task description]
-           Possible classes: - act: … - animal: … (25 labels with a one-line gloss)
-           Answer with the class name only.
-user:      Lemma: … / Definition: …        ┐
-assistant: <label>                          ┘ × n_shots (demonstrations)
-user:      Lemma: … / Definition: …          (query)
+system:    You are an expert lexicographer. You will be given a sense of a French noun, described by its lemma
+           and its definition from the French Wiktionary. Classify this sense into exactly one of the following
+           semantic classes (supersenses):
+           - act: an action or activity performed by an agent (negotiation, jump, cleaning)
+           - ...   (25 labels, each with a one-line gloss)
+           Answer with the class name only, exactly as written above.
+user:      Lemme : <lemma>
+           Définition : <definition>        (one user/assistant pair per demonstration)
+assistant: <label>
+user:      Lemme : <lemma>
+           Définition : <definition>        (the query)
 ```
 
-Factors compared on `rand-dev` (one at a time, other factors fixed):
-prompt language (`en` / `fr`) → number of shots (0 / 5 / 25 / 50) → shot selection (`random` / `by_class` / `similar`)
-→ with or without lemma → generation vs label log-probability.
+Factors compared on `rand-dev`, one at a time, each keeping the best value of the previous ones:
+
+1. prompt language (`en` / `fr`);
+2. number of shots (0 / 5 / 25 / 50);
+3. shot selection (`random` / `by_class` / `similar`);
+4. with or without the lemma;
+5. generation vs label log-probability.
 
 ## References
 

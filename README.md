@@ -1,6 +1,6 @@
 # Classifying word-sense definitions into supersenses with LLMs
 
-M2 Computational Linguistics — *NLP for Society* (Marie Candito) — Lab 1.
+Lab 1 of the M2 course NLP for Society (Marie Candito), Computational Linguistics.
 
 We classify French Wiktionary word senses (lemma + definition) into 25 **supersenses**
 (and, through a fixed mapping, 12 **hypersenses**) and compare:
@@ -35,7 +35,7 @@ src/evaluate.py        metrics (accuracy, macro-F1), prediction files, experimen
 src/prompts.py         ICL prompt templates
 src/label_scoring.py   label log-probabilities after the prompt
 notebooks/             experiments (one notebook per method)
-results/metrics.csv    one row per run — the single table all report numbers come from
+results/metrics.csv    one row per run; every number in the report comes from this file
 results/predictions/   one CSV of predictions per run, used for error analysis
 results/figures/       figures of the report
 docs/                  short notes justifying our choices (model, prompts, LoRA)
