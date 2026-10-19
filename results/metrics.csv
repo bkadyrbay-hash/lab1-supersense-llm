@@ -1,0 +1,13 @@
+date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_selection,lora_targets,head,decoding,epochs,accuracy_super,macro_f1_super,accuracy_hyper,macro_f1_hyper,invalid_rate,n,runtime_min,notes
+2026-10-19,A,icl,en_0shot_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,0,,,,generation,,0.5175,0.412,0.6579,0.4787,0.0053,570,6.9,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_5shot_by_class_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,5,by_class,,,generation,,0.5561,0.4419,0.686,0.4792,0.0263,570,7.0,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,fr_0shot_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,fr,0,,,,generation,,0.4456,0.3771,0.6895,0.448,0.007,570,8.3,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,fr_5shot_by_class_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,fr,5,by_class,,,generation,,0.4614,0.3641,0.6614,0.4213,0.0491,570,8.0,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_25shot_by_class_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,25,by_class,,,generation,,0.5491,0.4208,0.6421,0.4258,0.0544,570,7.4,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_50shot_by_class_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,50,by_class,,,generation,,0.4807,0.4342,0.5947,0.444,0.0491,570,7.7,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_5shot_random_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,5,random,,,generation,,0.5684,0.4056,0.6789,0.401,0.0298,570,7.0,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_5shot_similar_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,5,similar,,,generation,,0.6246,0.4757,0.7105,0.4711,0.0175,570,18.9,restored from the Colab file viewer after the session was reclaimed
+2026-10-19,A,icl,en_5shot_similar_nolemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,generation,,0.6614,0.5022,0.7526,0.5312,0.0193,570,16.8,
+2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.6754,0.5091,0.7632,0.5325,0.0,570,25.6,
+2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,rand-test,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.7168,0.5832,0.7847,0.5691,0.0,678,30.4,
+2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,freq-test,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.5233,0.5188,0.616,0.5357,0.0,1521,66.0,

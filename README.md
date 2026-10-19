@@ -1,6 +1,6 @@
 # Classifying word-sense definitions into supersenses with LLMs
 
-M2 Computational Linguistics — *NLP for Society* (Marie Candito) — Lab 1.
+Lab 1 of the M2 course NLP for Society (Marie Candito), Computational Linguistics.
 
 We classify French Wiktionary word senses (lemma + definition) into 25 **supersenses**
 (and, through a fixed mapping, 12 **hypersenses**) and compare:
@@ -19,6 +19,7 @@ Hyperparameters are tuned on `rand-dev` only; final results are reported once on
 |---|---|---|
 | `00_data_exploration` | label distributions per split, input properties | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/00_data_exploration.ipynb) |
 | `01_icl` | prompting experiments (language, #shots, shot selection, lemma, generation vs label log-prob) | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/01_icl.ipynb) |
+| `01b_icl_error_analysis` | errors of the best ICL configuration: hard classes, confusions, effect of the lemma | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/01b_icl_error_analysis.ipynb) |
 | `02_lora` | QLoRA: target modules, generation vs classification head, lemma | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/02_lora.ipynb) |
 | `03_camembert` | optional encoder baseline | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/03_camembert.ipynb) |
 | `04_error_analysis` | confusion matrices, per-class F1, errors shared by methods | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/04_error_analysis.ipynb) |
@@ -34,7 +35,7 @@ src/evaluate.py        metrics (accuracy, macro-F1), prediction files, experimen
 src/prompts.py         ICL prompt templates
 src/label_scoring.py   label log-probabilities after the prompt
 notebooks/             experiments (one notebook per method)
-results/metrics.csv    one row per run — the single table all report numbers come from
+results/metrics.csv    one row per run; every number in the report comes from this file
 results/predictions/   one CSV of predictions per run, used for error analysis
 results/figures/       figures of the report
 docs/                  short notes justifying our choices (model, prompts, LoRA)

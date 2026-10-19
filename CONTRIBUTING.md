@@ -5,7 +5,7 @@ through a pull request reviewed by the other team member (direct pushes are bloc
 
 ## Who does what
 
-| Student A — in-context learning | Student B — LoRA fine-tuning | Both |
+| Student A (in-context learning) | Student B (LoRA fine-tuning) | Both |
 |---|---|---|
 | `src/data.py`, `src/prompts.py`, `src/label_scoring.py` | `src/evaluate.py` | `results/metrics.csv` (append only) |
 | `notebooks/00_data_exploration.ipynb`, `01_icl.ipynb` | `notebooks/02_lora.ipynb`, `03_camembert.ipynb` | `results/predictions/`, `results/figures/` |
@@ -16,17 +16,17 @@ Each file has one owner; if you need a change in a file you do not own, ask in t
 
 ## Working on a task
 
-1. **Branch** — on GitHub, branch menu (`main ▾`) → type `a/<task>` or `b/<task>`
+1. Create a branch on GitHub: open the branch menu (`main ▾`), type `a/<task>` or `b/<task>`
    (e.g. `a/icl-baseline`, `b/lora-baseline`) → *Create branch from main*. One branch per task.
-2. **Colab** — *File → Open notebook → GitHub*, paste the repository URL, pick your branch.
+2. Open the notebook in Colab: *File → Open notebook → GitHub*, paste the repository URL, pick your branch.
    The first cell clones the repository so `src/` is importable; set `BRANCH` there to use code
    that is not merged yet. New notebooks start as a copy of `notebooks/_template.ipynb`.
-3. **Save the notebook** — *Edit → Clear all outputs*, then *File → Save a copy in GitHub*:
+3. Save the notebook: *Edit → Clear all outputs*, then *File → Save a copy in GitHub*:
    your branch, path `notebooks/<name>.ipynb`, untick "Include a link to Colab".
-4. **Other files** (`.py`, `.csv`, `.png`, `.md`) — press `.` on the repository page to open github.dev,
+4. Commit other files (`.py`, `.csv`, `.png`, `.md`): press `.` on the repository page to open github.dev,
    or *Add file → Upload files* on your branch, or use git locally (below).
-5. **Pull request** — *Compare & pull request*, fill in the template, request a review from your teammate.
-6. **Review** — read the code, ask about anything unclear, approve. Then *Squash and merge*.
+5. Open a pull request: *Compare & pull request*, fill in the template, request a review from your teammate.
+6. Review: read the code, ask about anything unclear, approve, then *Squash and merge*.
 
 ## Conventions
 
@@ -37,7 +37,7 @@ Each file has one owner; if you need a change in a file you do not own, ask in t
 - `rand-dev` is used for every tuning decision; `rand-test` and `freq-test` are run once, on the final configurations.
 - All hyperparameters of a notebook live in its `CONFIG` cell; seed is 42 everywhere.
 - Every pull request runs `ruff` (unused imports and variables, undefined names).
-- Commit messages: short, imperative, in English — `Add zero-shot ICL baseline on rand-dev`.
+- Commit messages: short, imperative, in English, e.g. `Add zero-shot ICL baseline on rand-dev`.
 
 ## Using git locally (optional)
 
