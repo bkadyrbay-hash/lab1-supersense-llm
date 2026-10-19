@@ -29,7 +29,7 @@ def push_results(message: str, branch: str, author: tuple[str, str]) -> None:
     url = f"https://{token}@{REPO}"
     identity = ["-c", f"user.name={author[0]}", "-c", f"user.email={author[1]}"]
     steps = {"add": ["add", "results"], "commit": [*identity, "commit", "-q", "-m", message],
-             "pull": ["pull", "-q", "--rebase", url, branch], "push": ["push", "-q", url, f"HEAD:{branch}"]}
+             "pull": [*identity, "pull", "-q", "--rebase", url, branch], "push": ["push", "-q", url, f"HEAD:{branch}"]}
     for step, args in steps.items():
         # Output is captured so that the token never appears in the notebook.
         if subprocess.run(["git", *args], capture_output=True).returncode:

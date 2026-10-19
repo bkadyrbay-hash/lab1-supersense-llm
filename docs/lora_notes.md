@@ -54,6 +54,9 @@ it ran out of GPU memory). The model is also kept on a single GPU: in 4-bit it t
 3. Generation vs classification head.
 4. With vs without the lemma.
 
+Each comparison keeps the setting with the higher macro-F1 on `rand-dev`; a tie goes to the simpler
+setting (`qv`, generation, with lemma).
+
 This needs four trainings. Adapters are saved on Google Drive (Colab) or as notebook output (Kaggle), never in git.
 
 ## References
