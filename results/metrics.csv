@@ -8,3 +8,4 @@ date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_sel
 2026-10-19,A,icl,en_5shot_random_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,5,random,,,generation,,0.5684,0.4056,0.6789,0.401,0.0298,570,7.0,restored from the Colab file viewer after the session was reclaimed
 2026-10-19,A,icl,en_5shot_similar_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,5,similar,,,generation,,0.6246,0.4757,0.7105,0.4711,0.0175,570,18.9,restored from the Colab file viewer after the session was reclaimed
 2026-10-19,A,icl,en_5shot_similar_nolemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,generation,,0.6614,0.5022,0.7526,0.5312,0.0193,570,16.8,
+2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.6754,0.5091,0.7632,0.5325,0.0,570,25.6,
