@@ -16,3 +16,4 @@ date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_sel
 2026-10-20,B,lora,all_generation_lemma_logprob,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,,,all,generation,logprob,1,0.7965,0.6516,0.8719,0.6585,0.0,570,4.4,
 2026-10-20,B,lora,all_classification_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,,,all,classification,argmax,1,0.793,0.6476,0.8737,0.689,0.0,570,65.1,runtime includes training
 2026-10-20,B,lora,all_generation_nolemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,,,all,generation,generation,1,0.7561,0.6192,0.8368,0.6576,0.0,570,64.5,runtime includes training
+2026-10-20,B,lora,all_generation_lemma,rand-test,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,,,all,generation,generation,1,0.8201,0.7187,0.8761,0.7229,0.0,678,1.5,
