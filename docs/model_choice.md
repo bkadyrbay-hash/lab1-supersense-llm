@@ -35,11 +35,11 @@ suggested in the lab instructions, but its result table did not load when we con
 
 ## Decision
 
-We use **Qwen2.5-7B-Instruct** in 4-bit NF4. For ICL we load the pre-quantized checkpoint
+We use **Qwen2.5-7B-Instruct** in 4-bit NF4. Both methods load the pre-quantized checkpoint
 [`unsloth/Qwen2.5-7B-Instruct-bnb-4bit`](https://huggingface.co/unsloth/Qwen2.5-7B-Instruct-bnb-4bit)
-(Apache-2.0 licence), which downloads faster and avoids quantizing at every session. For LoRA the original weights
-are quantized at load time with the same NF4 settings, because the classification head must stay in 16-bit
-(see `docs/lora_notes.md`).
+(Apache-2.0 licence), which downloads faster and avoids quantizing at every session, so ICL and LoRA start from
+exactly the same weights. For the LoRA classification head, the new `score` layer is replaced by a 16-bit one so
+that it can be trained (see `docs/lora_notes.md`).
 
 - It has the best French scores of the candidates with at most 8B parameters, with a large margin on MMMLU-fr
   (9 points above Llama-3.1-8B).
