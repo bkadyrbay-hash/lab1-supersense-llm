@@ -11,11 +11,15 @@ lets a 7B model be trained on a free 16 GB T4. We train on the whole `train` spl
 
 ## Loading the model
 
-The ICL notebook uses the pre-quantized `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`. Its quantization config only
-keeps `lm_head` in 16-bit, so with a classification head the new `score` layer would be created directly in 4-bit
-and could not be trained. We therefore load `Qwen/Qwen2.5-7B-Instruct` and quantize it at load time with the same
-settings (NF4, double quantization) and `score` kept in 16-bit. The same original weights go through the
-same NF4 quantization as in the unsloth checkpoint; the compute dtype is float16, since the T4 has no bfloat16 support.
+We use the same pre-quantized checkpoint as for ICL, `unsloth/Qwen2.5-7B-Instruct-bnb-4bit` (NF4, double
+quantization), so both methods start from exactly the same weights. Two adjustments:
+
+- the checkpoint keeps only `lm_head` in 16-bit and quantizes every other linear layer, so the new classification
+  layer `score` would be created in 4-bit and could not be trained; we replace it with a 16-bit linear layer;
+- the checkpoint computes in bfloat16, which the T4 does not support; we set the compute dtype to float16.
+
+A first version quantized `Qwen/Qwen2.5-7B-Instruct` at load time instead; its training ran out of GPU memory
+on Kaggle, so we switched to the checkpoint that already ran on a T4 for ICL.
 
 ## Input and target
 
@@ -37,14 +41,14 @@ Fixed for all runs (no time to tune them, they are the usual QLoRA values):
 |---|---|
 | rank `r` / `lora_alpha` / dropout | 16 / 32 / 0.05 |
 | learning rate, schedule | 2e-4, cosine with 3 % warm-up |
-| batch size, epochs | 8 x 2 gradient accumulation steps (16 sequences per update), 1 |
+| batch size, epochs | 4 x 4 gradient accumulation steps (16 sequences per update), 1 |
 | precision | 4-bit NF4 weights; frozen embeddings and `lm_head` in fp16; trained weights (LoRA, `score`) in fp32; fp16 mixed precision |
 | gradient checkpointing | yes |
 | seed | 42 |
 
 We do not use `prepare_model_for_kbit_training`: it casts every non-quantized layer to fp32, including the
-frozen embeddings and `lm_head` (about 545M parameters each in Qwen2.5-7B), which costs 2.2 GB more (our first run with
-it ran out of GPU memory). The model is also kept on a single GPU: in 4-bit it takes about 6 GB.
+frozen embeddings and `lm_head` (about 545M parameters each in Qwen2.5-7B), which costs 2.2 GB more.
+The model is also kept on a single GPU: in 4-bit it takes about 6 GB.
 
 ## Compared on rand-dev (one factor at a time)
 
