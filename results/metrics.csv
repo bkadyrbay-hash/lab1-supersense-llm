@@ -12,3 +12,4 @@ date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_sel
 2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,rand-test,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.7168,0.5832,0.7847,0.5691,0.0,678,30.4,
 2026-10-19,A,icl,en_5shot_similar_nolemma_logprob,freq-test,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,False,en,5,similar,,,logprob,,0.5233,0.5188,0.616,0.5357,0.0,1521,66.0,
 2026-10-20,B,lora,qv_generation_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,,,qv,generation,generation,1,0.7772,0.6072,0.8509,0.5899,0.0,570,58.3,runtime includes training
+2026-10-20,B,lora,all_generation_lemma,rand-dev,unsloth/Qwen2.5-7B-Instruct-bnb-4bit,True,en,,,all,generation,generation,1,0.7965,0.6699,0.8719,0.6959,0.0,570,69.1,runtime includes training
