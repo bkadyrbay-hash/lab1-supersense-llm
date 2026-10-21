@@ -1,7 +1,7 @@
 # Team workflow
 
 This lab is done by two students. `main` always contains working code: changes reach it only
-through a pull request reviewed by the other team member (direct pushes are blocked).
+through a pull request (direct pushes are blocked), and every pull request runs `ruff`.
 
 ## Who does what
 
