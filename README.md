@@ -7,11 +7,25 @@ We classify French Wiktionary word senses (lemma + definition) into 25 **superse
 
 1. **In-context learning (ICL)** with a 4-bit instruction-tuned causal LLM (`Qwen2.5-7B-Instruct`);
 2. **QLoRA fine-tuning** of the same model on the training set (generation vs classification head);
-3. *(optional)* full fine-tuning of an encoder (CamemBERT).
+3. *(optional baseline)* full fine-tuning of a French encoder (CamemBERT).
 
 Data: [Angleraud et al., 2025](https://aclanthology.org/2025.coling-main.356/), taxonomy from
 [Barque et al., 2020](https://aclanthology.org/2020.lrec-1.724/).
 Hyperparameters are tuned on `rand-dev` only; final results are reported once on `rand-test` and `freq-test`.
+
+## Results
+
+Final configuration of each method, chosen on `rand-dev` and run once on the test sets (supersense macro-F1 / accuracy;
+all runs in [`results/metrics.csv`](results/metrics.csv)):
+
+| Method | Final configuration | rand-test | freq-test |
+|---|---|---|---|
+| ICL | English prompt, 5 similar demonstrations, no lemma, label scoring | 0.583 / 0.717 | 0.519 / 0.523 |
+| QLoRA | adapters on all linear layers, label generation, with lemma | 0.719 / 0.820 | 0.675 / 0.702 |
+| CamemBERT | `camembert-large`, with lemma | 0.705 / 0.807 | 0.639 / 0.682 |
+
+QLoRA and CamemBERT are better than ICL in 100 % of paired bootstrap resamples on both test sets; QLoRA and
+CamemBERT cannot be distinguished on `rand-test` and QLoRA is better on `freq-test`.
 
 ## Notebooks (open in Colab)
 
@@ -25,7 +39,8 @@ Hyperparameters are tuned on `rand-dev` only; final results are reported once on
 | `04_error_analysis` | confusion matrices, per-class F1, errors shared by methods | [open](https://colab.research.google.com/github/bkadyrbay-hash/lab1-supersense-llm/blob/main/notebooks/04_error_analysis.ipynb) |
 
 Every notebook starts with a setup cell that clones this repository in Colab, so `src/` is importable
-and the dataset is downloaded automatically on first use. Use a GPU runtime (T4) for `01`–`03`.
+and the dataset is downloaded automatically on first use. Use a GPU runtime (T4, Colab or Kaggle) for `01`–`03`;
+`00`, `01b` and `04` run on CPU from the prediction files.
 
 ## Repository layout
 
@@ -34,6 +49,7 @@ src/data.py            loading, splits (protect-frsemcor removed), input formatt
 src/evaluate.py        metrics (accuracy, macro-F1), prediction files, experiment log
 src/prompts.py         ICL prompt templates
 src/label_scoring.py   label log-probabilities after the prompt
+src/sync.py            pushing result files to GitHub from Colab or Kaggle
 notebooks/             experiments (one notebook per method)
 results/metrics.csv    one row per run; every number in the report comes from this file
 results/predictions/   one CSV of predictions per run, used for error analysis
