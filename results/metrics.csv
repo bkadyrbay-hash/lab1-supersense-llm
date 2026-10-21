@@ -21,3 +21,4 @@ date,author,method,config_id,split,model,with_lemma,prompt_lang,n_shots,shot_sel
 2026-10-21,A,camembert,base_lemma,rand-dev,almanach/camembert-base,True,,,,,classification,argmax,4,0.7491,0.5061,0.8298,0.5111,0.0,570,6.3,runtime includes training
 2026-10-21,A,camembert,base_nolemma,rand-dev,almanach/camembert-base,False,,,,,classification,argmax,4,0.7333,0.4828,0.8175,0.4962,0.0,570,5.9,runtime includes training
 2026-10-21,A,camembert,large_lemma,rand-dev,almanach/camembert-large,True,,,,,classification,argmax,4,0.7825,0.6398,0.8561,0.6389,0.0,570,20.4,runtime includes training
+2026-10-21,A,camembert,large_lemma,rand-test,almanach/camembert-large,True,,,,,classification,argmax,4,0.8068,0.7052,0.8584,0.6765,0.0,678,0.2,

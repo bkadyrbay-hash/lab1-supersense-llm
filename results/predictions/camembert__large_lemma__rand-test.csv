@@ -1,0 +1,679 @@
+sense_id,lemma,definition,gold_supersense,pred_supersense,gold_hypersense,pred_hypersense,raw_output
+ws_1_esquerme__nom__1,esquerme,Plante potagère.,plant,plant,inanimate,inanimate,plant -0.08 | food -4.87 | body -5.13
+ws_2_agroécologie__nom__1,agroécologie,Pratique ou mode de production agricole appliquant les principes de l’agroécologie.,act,cognition,dynamic_situation,information,cognition -0.09 | attribute -4.62 | act*cognition -4.63
+ws_1_webcaméra__nom__1,webcaméra,Synonyme de webcam.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.28 | object -5.81
+ws_1_réducteur_de_portance__nom__1,réducteur_de_portance,Dispositif aérodynamique provoquant une diminution de la portance d’une voilure ou de la poussée d’un réacteur ou d’un moteur-fusée.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.34 | object -5.70
+ws_1_Mardésien__nom__1,Mardésien,"Habitant de Mardié, commune française située dans le département du Loiret.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.03
+ws_1_Californais__nom__1,Californais,Habitant de la Californie.,person,person,animate,animate,person -0.03 | food -5.89 | state -5.99
+ws_1_Aleximontoise__nom__1,Aleximontoise,"Habitante de Saint-Alexis-des-Monts, municipalité de paroisse québécoise [1].",person,person,animate,animate,person -0.03 | food -5.89 | state -6.07
+ws_1_Mainzacoise__nom__1,Mainzacoise,"Habitante de Mainzac, commune française située dans le département de la Charente.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.12
+ws_1_phérormone__nom__1,phérormone,Synonyme de phéromone.,substance,substance,inanimate,inanimate,substance -0.39 | phenomenon -2.19 | object -3.57
+ws_1_effet_Streisand__nom__1,effet_Streisand,Évènement médiatique durant lequel une tentative d’empêcher la diffusion d’informations entraine l’effet inverse.,event,event,dynamic_situation,dynamic_situation,event -0.19 | other -3.23 | phenomenon -3.52
+ws_1_Villerougeais__nom__1,Villerougeais,"Habitant de Villerouge-Termenès, commune française située dans le département de l’Aude.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.98
+ws_1_Géfossien__nom__1,Géfossien,"Habitant de Géfosse-Fontenay, commune française située dans le département du Calvados.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.03
+ws_1_Millemontaise__nom__1,Millemontaise,"Habitante de Millemont, commune française située dans le département des Yvelines.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.11
+ws_1_Reichsfeldois__nom__1,Reichsfeldois,"Habitant de Reichsfeld, commune française située dans le département du Bas-Rhin.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.01
+ws_2_Batiscanais__nom__1,Batiscanais,"Habitant de Saint-François-Xavier-de-Batiscan, ancienne municipalité de paroisse québécoise [1].",person,person,animate,animate,person -0.03 | state -5.88 | food -5.88
+ws_1_avant-Noël__nom__1,avant-Noël,Période précédant Noël.,time,time,time,time,time -0.14 | cognition -4.68 | event -4.70
+ws_1_zéine__nom__1,zéine,Protéine extraite du maïs.,object,substance,inanimate,inanimate,substance -0.09 | object -5.03 | body -5.08
+ws_1_télougou__nom__1,télougou,Langue dravidienne du sud de l’Inde.,communication,communication,information,information,communication -0.23 | cognition -4.24 | body -4.28
+ws_1_tachyarythmie__nom__1,tachyarythmie,Combinaison d’une accélération et d’une irrégularité du rythme cardiaque.,event,event,dynamic_situation,dynamic_situation,event -0.21 | phenomenon -3.20 | other -3.42
+ws_1_scordinine__nom__1,scordinine,Principe retiré du scordium.,substance,substance,inanimate,inanimate,substance -0.09 | object -4.95 | phenomenon -5.01
+ws_1_damalisque_à_front_blanc__nom__1,damalisque_à_front_blanc,Synonyme de blesbok (antilope).,animal,animal,animate,animate,animal -0.07 | attribute -5.60 | plant -5.62
+ws_1_Sillingien__nom__1,Sillingien,"Habitant de Sillingy, commune française située dans le département de la Haute-Savoie.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.01
+ws_1_Albertaceratops__nom__1,Albertaceratops,Type de dinosaure.,animal,animal,animate,animate,animal -0.07 | object -5.19 | plant -5.37
+ws_1_bétonnage__nom__1,bétonnage,Ouvrage de béton.,other,artifact,other,inanimate,artifact -0.05 | other -4.50 | object -5.39
+ws_2_synonymisation__nom__1,synonymisation,Détermination de synonyme.,act,relation,dynamic_situation,stative_situation,relation -1.27 | act -1.72 | other -2.54
+ws_6.f_queue__nom__1,queue,"Extrémité d’une pierre longue, entrant dans la construction d’un mur ou d’une voûte.",other,artifact,other,inanimate,artifact -0.70 | object -1.12 | other -3.49
+ws_1_temple-montagne__nom__1,temple-montagne,Temple construit au sommet d’une pyramide à plusieurs étages.,artifact,artifact,inanimate,inanimate,artifact -0.14 | other -3.34 | institution -3.63
+ws_2_gémonies__nom__1,gémonies,"Châtiment, outrage.",other,act,other,dynamic_situation,act -0.11 | act*cognition -3.58 | other -3.59
+ws_1_Fessevillageoise__nom__1,Fessevillageoise,"Habitante de Fessevillers, commune française située dans le département du Doubs.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.09
+ws_2_vers__nom__1,vers,L’ensemble de la poésie d’un auteur ou d’une école.,other,cognition,other,information,cognition -0.09 | act*cognition -4.54 | communication -4.56
+ws_4_vervelle__nom__1,vervelle,Sorte de piton qui était autrefois fixé au bassinet d’une armure.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.40 | object -5.76
+ws_1_géocasting__nom__1,géocasting,Technique de routage de paquet sur un réseau MANET qui a pour but de transmettre des données à l’ensemble des nœuds situés dans une zone géographique donnée.,act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.81 | act*cognition -4.41
+ws_1_Cerisienne__nom__1,Cerisienne,"Habitante de Chierry, commune française située dans le département de l’Aisne.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.11
+ws_1_Bréhalaise__nom__1,Bréhalaise,"Habitante de Bréhal, commune française située dans le département de la Manche.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.11
+ws_1_Broussevalienne__nom__1,Broussevalienne,"Habitante de Brousseval, commune française située dans le département de la Haute-Marne.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.11
+ws_1_indomptabilité__nom__1,indomptabilité,Qualité de ce qui est indomptable.,attribute,attribute,stative_situation,stative_situation,attribute -0.07 | state -4.43 | cognition -5.28
+ws_1_Cachemirienne__nom__1,Cachemirienne,Habitante du Cachemire.,person,person,animate,animate,person -0.03 | food -5.88 | state -6.13
+ws_1_normitude__nom__1,normitude,"Excès de normes, en particulier administratives",state,attribute,stative_situation,stative_situation,attribute -0.10 | state -3.36 | cognition -5.08
+ws_1_raphanie__nom__1,raphanie,"Nom donné par Linné à une maladie convulsive assez fréquente en Allemagne et en Suède, et qu’on attribue au Raphanus raphanistrum, Linné plante crucifère dont les semences sont mêlées avec le blé.",event,plant,dynamic_situation,inanimate,plant -0.14 | object -4.07 | event -4.49
+ws_1_urne-cabane__nom__1,urne-cabane,Urne funéraire étrusque dont la forme rappelle celle d’une habitation.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.23 | object -5.86
+ws_2_lascar__nom__1,lascar,Individu (avec une connotation plutôt péjorative).,person,person,animate,animate,person -0.03 | food -5.96 | state -6.15
+ws_1_Vtesse__nom__1,Vtesse,Vicomtesse.,person,person,animate,animate,person -0.03 | food -5.89 | state -6.09
+ws_1_trace-roulis__nom__1,trace-roulis,Instrument inventé par l’amiral Paris et servant à tracer le roulis d’un navire.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.25 | object -5.93
+ws_1_ceibo__nom__1,ceibo,Synonyme d’érythrine crête-de-coq.,plant,plant,inanimate,inanimate,plant -1.22 | object -1.61 | animal -1.91
+ws_1_vote_barrage__nom__1,vote_barrage,"Lors d’une élection, vote dans le but de faire échouer un candidat ou une liste.",act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.87 | act*cognition -4.13
+ws_1_iscariotiste__nom__1,iscariotiste,"Membre d’une secte qui vénérait Judas Iscariote et, en général, les mauvais personnages de la Bible.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.10
+ws_1_spiroptère__nom__1,spiroptère,"Genre d’helminthes à corps cylindrique aminci soit aux deux bouts, soit en avant ou en arrière seulement.",animal,animal,animate,animate,animal -0.07 | plant -5.55 | object -5.61
+ws_3_Saint-Martinaise__nom__1,Saint-Martinaise,"Habitante de Saint-Martin-au-Bosc, commune française située dans le département de la Seine-Maritime.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.09
+ws_1_Mazubien__nom__1,Mazubien,"Habitant de Mazuby, commune française située dans le département de l’Aude.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.03
+ws_1_anacoste__nom__1,anacoste,Sorte de serge fabriquée en Normandie.,artifact,artifact,inanimate,inanimate,artifact -0.21 | substance -3.35 | food -3.60
+ws_2_médiévalisation__nom__1,médiévalisation,Action de recourir aux institutions médiévales pour régir le présent.,act,act,dynamic_situation,dynamic_situation,act -0.11 | other -3.04 | act*cognition -4.60
+ws_1_facilitrice__nom__1,facilitrice,"Celle qui facilite, rend aisée, une action.",person,person,animate,animate,person -0.03 | food -5.96 | state -6.21
+ws_1_Escalloise__nom__1,Escalloise,"Habitante d’Escalles, commune française située dans le département du Pas-de-Calais.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.09
+ws_1_hypnopraxie__nom__1,hypnopraxie,"Approche thérapeutique en médecine et psychologie, de contact à l’intimité en lien avec les modifications de l’état d’affect, inspirée de l’hypnose ericksonienne et de la phénoménologie.",act,cognition,dynamic_situation,information,cognition -0.76 | act -1.26 | act*cognition -2.53
+ws_1_Vendrangeoise__nom__1,Vendrangeoise,"Habitante de Vendranges, commune française située dans le département de la Loire.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.12
+ws_6_creux__nom__1,creux,Dépression de la surface de la mer entre deux lames.,object,object,inanimate,inanimate,object -0.12 | other -4.57 | phenomenon -4.59
+ws_1_blues_rock__nom__1,blues_rock,Genre musical mêlant une instrumentation rock avec des structures et des compositions typiques du blues apparu au milieu des années 1960.,cognition,cognition,information,information,cognition -0.22 | act*cognition -3.37 | communication -3.45
+ws_1_Plouguielloise__nom__1,Plouguielloise,"Habitante de Plouguiel, commune française située dans le département des Côtes-d’Armor.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.07
+ws_3_Villaroise__nom__1,Villaroise,"Habitante de Villars-sur-Var, commune française située dans le département des Alpes-Maritimes.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.10
+ws_1_Janzéenne__nom__1,Janzéenne,"Habitante de Janzé, commune française située dans le département de l’Ille-et-Vilaine.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.10
+ws_3_module__nom__1,module,Diamètre comparatif d’une médaille par rapport à d’autres.,attribute,attribute,stative_situation,stative_situation,attribute -0.09 | quantity -4.41 | cognition -4.56
+ws_1_motif_de_reconnaissance_du_protoespaceur__nom__1,motif_de_reconnaissance_du_protoespaceur,Variante orthographique de motif de reconnaissance du proto-espaceur.,cognition,cognition,information,information,cognition -0.13 | communication -3.61 | attribute -4.43
+ws_1_péloïde__nom__1,péloïde,"Boue thérapeutique, parfois crée artificiellement.",substance,substance,inanimate,inanimate,substance -0.11 | object -4.17 | phenomenon -4.61
+ws_1_Millerote__nom__1,Millerote,"Habitante de Millery, commune française située dans le département du Rhône.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.13
+ws_1_homme_du_rang__nom__1,homme_du_rang,Simple soldat.,person,person,animate,animate,person -0.03 | food -5.93 | state -6.03
+ws_1_clam__nom__1,clam,Nom vernaculaire de plusieurs espèces de mollusques bivalves comestibles.,animal,animal,animate,animate,animal -0.08 | food -5.04 | plant -5.04
+ws_1_frère_trois-points__nom__1,frère_trois-points,Personne membre de la franc-maçonnerie.,person,person,animate,animate,person -0.03 | food -5.95 | state -6.02
+ws_1_ababouy__nom__1,ababouy,Synonyme de ximénie épineuse.,plant,plant,inanimate,inanimate,plant -0.31 | object -2.11 | body -4.03
+ws_1_Tayboscois__nom__1,Tayboscois,"Habitant de Taybosc, commune française située dans le département du Gers.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.00
+ws_1_actuaire__nom__3,actuaire,"Écriture latine à lettres étroites et plutôt irrégulières, apparaissant sur des actes de l’autorité publique comme des diplômes militaires, ou des actes privés.",communication,communication,information,information,communication -0.36 | cognition -2.53 | person -3.78
+ws_2_Gildasien__nom__1,Gildasien,"Habitant de Saint-Gildas-de-Rhuys, commune du Morbihan.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.01
+ws_1_Arbinoise__nom__1,Arbinoise,"Habitante d’Arbin, commune française située dans le département de la Savoie.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.13
+ws_1_donneur_de_femme__nom__1,donneur_de_femme,"Famille de laquelle l’épouse vient, dans un mariage traditionnel comme un échange de la femme et de biens.",person,groupxperson,animate,animate,groupxperson -0.88 | other -1.70 | institution -2.10
+ws_1_Zinneke__nom__1,Zinneke,"Habitant de Bruxelles, généralement né à Bruxelles.",person,person,animate,animate,person -0.03 | food -5.93 | state -6.05
+ws_1_Bordien__nom__1,Bordien,"Habitant de Bordes-de-Rivière, commune française située dans le département de la Haute-Garonne.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.01
+ws_1_héroïsme__nom__1,héroïsme,Acte d’un courage exceptionnel accompli par un homme brave ou par une femme héroïque. Ce qui est propre au héros et en fait le caractère.,act,act,dynamic_situation,dynamic_situation,act -0.49 | attribute -1.75 | other -3.05
+ws_1_dispense__nom__1,dispense,"Exemption, acte par lequel on dispense une personne de quelque chose.",act,act,dynamic_situation,dynamic_situation,act -0.12 | other -3.46 | act*cognition -3.52
+ws_1_antiquark__nom__1,antiquark,Antiparticule du quark.,object,object,inanimate,inanimate,object -0.22 | substance -3.85 | quantity -3.95
+ws_1_monoalternance__nom__1,monoalternance,Définition manquante ou à compléter. (Ajouter),attribute,event,stative_situation,dynamic_situation,event -1.79 | relation -2.10 | other -2.14
+ws_1_Kédangeois__nom__1,Kédangeois,"Habitant de Kédange-sur-Canner, commune française située dans le département de la Moselle.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.96
+ws_2_Lamarquais__nom__1,Lamarquais,"Habitant de Lamarque-Pontacq, commune française située dans le département des Hautes-Pyrénées.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.00
+ws_1_arachnéolite__nom__1,arachnéolite,Crabe ou araignée de mer fossile.,animal,animal,animate,animate,animal -0.17 | object -3.26 | plant -3.76
+ws_4_Monastérienne__nom__1,Monastérienne,"Habitante de Montiers-sur-Saulx, commune française située dans le département de la Meuse.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.08
+ws_1_Honorois__nom__1,Honorois,"Habitant de L’Honor-de-Cos, commune française située dans le département du Tarn-et-Garonne.",person,person,animate,animate,person -0.03 | food -5.90 | state -5.99
+ws_1_reck__nom__1,reck,Barre fixe en gymnastique.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.24 | object -5.82
+ws_2_Buirois__nom__1,Buirois,"Habitant de Buire-au-Bois, commune française située dans le département du Pas-de-Calais.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.99
+ws_1_Aubainien__nom__1,Aubainien,"Habitant ou originaire d’Aubagne, commune du département des Bouches-du-Rhône en région Provence-Alpes-Côte d’Azur dans le sud-est de la France.",person,person,animate,animate,person -0.03 | food -5.85 | state -5.97
+ws_1_gâble__nom__1,gâble,"Ensemble ornemental triangulaire, qui dans l’architecture gothique, surmonte l’arc d’une baie, l’archivolte d’un portail.",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -5.09 | object -5.41
+ws_1_comtesse__nom__1,comtesse,Épouse ou veuve d’un comte.,person,person,animate,animate,person -0.03 | food -5.93 | state -6.01
+ws_2_agrafeuse__nom__1,agrafeuse,"Ouvrière qui agrafe (pour un homme, on dit : agrafeur).",person,person,animate,animate,person -0.03 | food -5.97 | state -6.18
+ws_1_Dogon__nom__1,Dogon,Membre d’une ethnie d’Afrique de l’Ouest.,person,person,animate,animate,person -0.04 | state -5.81 | food -5.92
+ws_1_Vindelloise__nom__1,Vindelloise,"Habitante de Vindelle, commune française située dans le département de la Charente.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.10
+ws_2_dossière__nom__1,dossière,Pièce du harnais du cheval se plaçant sur le dos et supportant les brancards.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.45 | object -5.91
+ws_2_Abitibien__nom__1,Abitibien,"Habitant de la MRC de l’Abitibi, au Québec.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.03
+ws_2_rex__nom__1,rex,"Race de lapins, originaires de France, de taille moyenne, qui ont une fourrure duveteuse, très dense et courte, ayant l’aspect du velours et composée uniquement de fin duvet.",animal,animal,animate,animate,animal -0.07 | attribute -5.52 | plant -5.56
+ws_1_plaisir_charnel__nom__1,plaisir_charnel,"Jouissance, plaisir obtenu par l’acte sexuel.",feeling,feeling,stative_situation,stative_situation,feeling -0.15 | event -4.36 | state -4.44
+ws_2_chantignole__nom__1,chantignole,Brique de demi-épaisseur utilisée en parement ou pour garnir le foyer des cheminées à feu ouvert.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.57 | object -5.58
+ws_1_Maringonne__nom__1,Maringonne,"Habitante de Marin, commune française située dans le département de la Haute-Savoie.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.10
+ws_1_Aristosuchus_pusillis__nom__1,Aristosuchus_pusillis,Type de dinosaure.,animal,animal,animate,animate,animal -0.07 | object -5.02 | plant -5.17
+ws_1_rencontreuse__nom__1,rencontreuse,Celle qui rencontre.,person,person,animate,animate,person -0.03 | food -5.97 | artifact -6.20
+ws_1_sumac_des_corroyeurs__nom__1,sumac_des_corroyeurs,"Espèce de sumac de l’Ancien Monde, arbuste principalement méditerranéen, aux feuilles imparipennées et aux fleurs minuscules jaunâtres en panicules formant des drupes brun pourpre. Son appellation binomiale est Rhus coriaria il appartient à la famille des Anacardiaceae.",plant,plant,inanimate,inanimate,plant -0.08 | object -5.05 | body -5.17
+ws_2_Biachois__nom__1,Biachois,"Habitant de Biaches, commune de la Somme.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.03
+ws_1_maître_de_chevalerie__nom__1,maître_de_chevalerie,Personne qui enseigne ou maîtrise l’art de manier les armes et de monter à cheval.,person,person,animate,animate,person -0.03 | food -5.92 | state -6.11
+ws_1_pactisation__nom__1,pactisation,"Négociation, entente à des fins douteuses ou condamnables.",act,act,dynamic_situation,dynamic_situation,act -0.10 | other -3.58 | act*cognition -3.95
+ws_1_enchanterie__nom__1,enchanterie,Enchantement.,other,event,other,dynamic_situation,event -0.30 | other -2.76 | phenomenon -2.80
+ws_2_albumen__nom__1,albumen,Tissu de réserve embryonnaire des graines angiospermes aussi appelé périsperme.,plant,plant,inanimate,inanimate,plant -0.12 | body -4.05 | object -4.37
+ws_1_gens_du_voyage__nom__1,gens_du_voyage,Pluriel de homme du voyage et de femme du voyage.,groupxperson,person,animate,animate,person -0.22 | groupxperson -2.84 | other -4.46
+ws_1_nonaïeul__nom__1,nonaïeul,Parent de l’octaïeul.,person,person,animate,animate,person -0.04 | state -5.90 | food -5.93
+ws_2_terrine__nom__1,terrine,Sorte de pâté fait dans une terrine et qu’on sert froid.,food,food,inanimate,inanimate,food -0.10 | person -5.03 | artifact*cognition -5.25
+ws_1_Saultinoise__nom__1,Saultinoise,"Habitante de Saultain, commune française située dans le département du Nord.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.13
+ws_3_laque__nom__1,laque,"Enduit brillant, d’origine industrielle, appliqué sur divers objets.",substance,substance,inanimate,inanimate,substance -0.09 | phenomenon -5.03 | object -5.23
+ws_1_Quaker__nom__1,Quaker,Variante de quaker.,person,person,animate,animate,person -0.04 | state -5.66 | food -5.85
+ws_1_clictivisme__nom__1,clictivisme,Forme de militantisme sur Internet qui consiste à cliquer pour participer à un mouvement collectif virtuel sans s’engager plus activement et concrètement.,act,cognition,dynamic_situation,information,cognition -0.32 | attribute -2.26 | act -3.49
+ws_1_marrucinite__nom__1,marrucinite,"Pilleur de livres, plagiaire.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.02
+ws_1_Forézienne__nom__1,Forézienne,"Habitante de Feurs, commune française située dans le département de la Loire.",person,person,animate,animate,person -0.03 | food -5.86 | state -6.12
+ws_1_cuillère_à_œufs_à_la_coque__nom__1,cuillère_à_œufs_à_la_coque,Petite cuillère utilisée spécialement pour manger les œufs à la coque.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.29 | act -5.90
+ws_1_empirie__nom__1,empirie,Domaine où s’exerce la science objective.,cognition,cognition,information,information,cognition -0.08 | attribute -4.98 | act*cognition -5.00
+ws_1_case_à_nègres__nom__1,case_à_nègres,Logement des esclaves aux Antilles.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.63 | institution -5.66
+ws_2_Samaritaine__nom__2,Samaritaine,"Habitante de Sainte-Marie, commune française située dans le département de la Martinique.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.10
+ws_1_facob__nom__1,facob,Traité facultatif obligatoire.,cognition,cognition,information,information,cognition -0.77 | artifact*cognition -1.36 | act*cognition -2.86
+ws_6_obédience__nom__1,obédience,Rattachement à une doctrine.,cognition,state,information,stative_situation,state -0.64 | attribute -1.52 | cognition -3.27
+ws_7_personnage__nom__1,personnage,Figure d’une composition.,cognition,person,information,animate,person -0.06 | cognition -5.17 | state -5.49
+ws_1_palmier_à_huile__nom__1,palmier_à_huile,"Espèce tropicale d’éléis monoïque, qui est un genre de palmier à feuilles pennées cultivé pour ses fruits et ses graines riches en huiles (huile de palme et huile de palmiste, respectivement) à usages alimentaire et industriel, de la famille des arécacées (Elaeis guineensis).",plant,plant,inanimate,inanimate,plant -0.08 | object -5.01 | food -5.08
+ws_1_postdatage__nom__1,postdatage,Fait de dater un document avec une date du futur.,act,act,dynamic_situation,dynamic_situation,act -0.10 | other -3.61 | act*cognition -3.83
+ws_1_gerflex__nom__1,gerflex,Revêtement de sol synthétique.,artifact,artifact,inanimate,inanimate,artifact -0.06 | substance -4.78 | object -5.18
+ws_1_cuy__nom__1,cuy,Tronc d’arbre percé longitudinalement et faisant communiquer deux bassins séparés par une digue.,artifact,artifact,inanimate,inanimate,artifact -0.06 | object -4.70 | other -5.13
+ws_1_faire-valoir_direct__nom__1,faire-valoir_direct,"Mode d’exploitation d’une propriété agricole, où la terre est cultivée par le propriétaire lui même.",act,act,dynamic_situation,dynamic_situation,act -0.31 | other -2.25 | institution -3.39
+ws_2_sorâtre__nom__1,sorâtre,Mauvaise sœur.,person,person,animate,animate,person -0.03 | food -5.96 | state -6.03
+ws_1_écocup__nom__1,écocup,Verre en plastique dur réutilisable.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.32 | object -5.84
+ws_1_agrotis__nom__1,agrotis,Noctuelle de la famille des lépidoptères dont la larve cause de gros dégâts dans les cultures de betterave.,animal,animal,animate,animate,animal -0.07 | plant -5.45 | object -5.48
+ws_1_Hayangeoise__nom__1,Hayangeoise,"Habitante de Hayange, commune française située en Moselle.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.12
+ws_1_savonnier__nom__2,savonnier,Fabricant de savon.,person,institution,animate,institution,institution -0.77 | person -1.51 | other -2.55
+ws_1_Russipontaine__nom__1,Russipontaine,"Habitante de Pontru, commune française située dans le département de l’Aisne.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.11
+ws_2_lainerie__nom__1,lainerie,Magasin où l’on vend de la laine.,other,institution,other,institution,institution -0.28 | other -2.19 | artifact -3.59
+ws_1_pâte_à_dents__nom__1,pâte_à_dents,"Pâte dentifrice, utilisée pour le lavage des dents.",substance,substance,inanimate,inanimate,substance -0.21 | food -2.64 | artifact*cognition -4.83
+ws_1_rainette_méridionale__nom__1,rainette_méridionale,"Espèce de rainettes du sud-ouest de l’Europe et d’Afrique du Nord, vertes, avec une bande latérale sombre qui souligne ses yeux mais ne se prolonge pas sur les flancs.",animal,animal,animate,animate,animal -0.07 | attribute -5.58 | relation -5.64
+ws_1_aurore__nom__2,aurore,"Couleur d’aurore, jaune doré. #FFCB60",cognition,attribute,information,stative_situation,attribute -0.29 | cognition -3.45 | phenomenon -3.47
+ws_1_slip_kangourou__nom__1,slip_kangourou,Sorte de slip masculin qui possède sur le devant une ouverture ressemblant à une poche. Cette ouverture est destinée à pouvoir uriner sans baisser la ceinture du slip.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.45 | artifact*cognition -5.92
+ws_2_pluviomètre__nom__1,pluviomètre,Ce qui enregistre les précipitations.,other,artifact,other,inanimate,artifact -0.04 | other -4.98 | object -5.58
+ws_1_Dace__nom__1,Dace,"Membre des tribus thraces du Nord, ayant peuplé le bassin Bas-Danube, la Dacie.",person,person,animate,animate,person -0.04 | state -5.86 | food -5.93
+ws_2_parallaxe__nom__1,parallaxe,Angle formé par le rayon visuel mené d’un point de la surface de la Terre à un astre avec le rayon mené du centre de la Terre à cet astre.,cognition,relation,information,stative_situation,relation -1.11 | attribute -1.44 | phenomenon -2.80
+ws_1_chiton__nom__1,chiton,Tunique de la Grèce antique portée aussi bien par les hommes que par les femmes.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -5.22 | artifact*cognition -5.69
+ws_1_vilenage__nom__1,vilenage,Synonyme de vilainage.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.69 | act*cognition -4.87
+ws_1_sole-langue_nigérienne__nom__1,sole-langue_nigérienne,"Espèce de poisson osseux marin, un poisson plat de l’Atlantique au corps allongé, et dont les nageoires dorsale, caudale et anale sont jointives comme chez les plagusies.",animal,animal,animate,animate,animal -0.07 | food -5.54 | plant -5.56
+ws_1_Attenschwilleroise__nom__1,Attenschwilleroise,"Habitante d’Attenschwiller, commune française située dans le département du Haut-Rhin.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.11
+ws_1_bovin_des_Highlands__nom__1,bovin_des_Highlands,Synonyme de highland (race de bovins).,animal,animal,animate,animate,animal -0.07 | plant -5.38 | attribute -5.60
+ws_1_Lessinoise__nom__1,Lessinoise,Habitante de Lessines en Belgique.,person,person,animate,animate,person -0.03 | food -5.86 | state -6.12
+ws_1_Palaosien__nom__1,Palaosien,Habitant ou originaire des Palaos.,person,person,animate,animate,person -0.03 | food -5.91 | state -5.99
+ws_1_Senucquoise__nom__1,Senucquoise,"Habitante de Senuc, commune française située dans le département des Ardennes.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.12
+ws_1.c_rutilite__nom__1,rutilite,une variété de grenat almandin donnée par le minéralogiste Pfaff.,object,substance,inanimate,inanimate,substance -1.03 | object -1.05 | plant -2.71
+ws_1_décapitateur__nom__1,décapitateur,"Personne qui décapite, qui est chargé de la décapitation.",person,person,animate,animate,person -0.03 | food -5.97 | state -6.18
+ws_1_claverie__nom__1,claverie,Cépage donnant du raisin blanc. Il serait originaire du bassin de l’Adour. Il fait partie des cépages autorisés mais n’est presque plus cultivé.,plant,plant,inanimate,inanimate,plant -0.15 | food -3.38 | object -4.89
+ws_4_météore__nom__1,météore,"Personne qui a une renommée éclatante, mais passagère ; chose qui fait une impression vive, mais peu durable.",person,person,animate,animate,person -0.03 | state -5.92 | food -5.98
+ws_1_festivisme__nom__1,festivisme,Caractérise une philosophie de vie qui accorde une certaine valeur à la fête.,cognition,attribute,information,stative_situation,attribute -0.44 | cognition -2.02 | act -3.00
+ws_2_graduel__nom__1,graduel,"Versets qui se disent entre l’épître et l’évangile, et qui se chantaient autrefois au jubé, comme cela se pratique encore dans quelques églises.",cognition,cognition,information,information,cognition -0.08 | act*cognition -4.49 | artifact*cognition -4.72
+ws_1_MTU__nom__1,MTU,Taille maximale d’un paquet réseau pouvant être transmis sans fragmentation.,quantity,attribute,quantity,stative_situation,attribute -0.38 | quantity -1.91 | cognition -3.68
+ws_1_rapiat__nom__1,rapiat,Radin.,person,person,animate,animate,person -0.03 | food -5.86 | state -6.11
+ws_4_harpe__nom__1,harpe,"Nom vulgaire d’un poisson, la triple lyre de Linné (océan Atlantique, Méditerranée).",animal,animal,animate,animate,animal -0.07 | object -5.34 | plant -5.41
+ws_2_druse__nom__1,druse,Masse minérale en forme de rognon.,object,object,inanimate,inanimate,object -0.11 | other -4.74 | plant -4.85
+ws_1_ataxie_de_Friedreich__nom__1,ataxie_de_Friedreich,Maladie neurologique évolutive d’origine génétique qui provoque des troubles de l’équilibre.,event,state,dynamic_situation,stative_situation,state -0.14 | attribute -4.11 | event -4.22
+ws_1_Randaillon__nom__1,Randaillon,"Habitant de Randens, commune française située dans le département de la Savoie.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.04
+ws_2_mail__nom__1,mail,Jeu où l’on fait usage du mail.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.88 | act*cognition -4.29
+ws_1_Trégonnais__nom__1,Trégonnais,"Habitant de Trégon, commune française située dans le département des Côtes-d’Armor.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.99
+ws_2_liparite__nom__1,liparite,Autre nom de la fluorine. (selon Wikipedia en français),object,substance,inanimate,inanimate,substance -0.10 | object -4.35 | phenomenon -4.80
+ws_1_adjoint_au_maire__nom__1,adjoint_au_maire,Variante de maire-adjoint.,person,person,animate,animate,person -0.04 | state -5.84 | food -5.88
+ws_1_Sarlandaise__nom__1,Sarlandaise,"Habitante de Sarlande, commune française située dans le département de la Dordogne.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.12
+ws_1_gagée_des_rochers__nom__1,gagée_des_rochers,Plante à fleurs jaunes de la famille des liliacées.,plant,plant,inanimate,inanimate,plant -0.08 | object -5.03 | body -5.10
+ws_2_trentaine__nom__1,trentaine,L’âge de trente ans.,attribute,time,stative_situation,time,time -0.39 | state -2.49 | attribute -3.56
+ws_1_aimantin__nom__1,aimantin,Objet décoratif aimanté.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.27 | object -5.90
+ws_1_charadriiforme__nom__1,charadriiforme,"Oiseau de l’ordre des charadriiformes, groupe constitué de 350 espèces réparties en 19 familles, réunissant des types très diversifiés, allant d’échassiers (dits \""limicoles\"") (e.g. chevaliers, pluviers, avocettes, etc.) et de palmipèdes de grande envergure (e.g. goélands, sternes, labbes, etc.) à des palmipèdes coloniaux peu aptes au vol soutenu (e.g. guillemots, macareux, etc.) ainsi que d’une grande variété d’autres types partageant principalement des caractéristiques d’ordre phylogénétique avec les types déjà énumérés.",animal,animal,animate,animate,animal -0.07 | plant -5.60 | relation -5.61
+ws_1_parterre_de_coupe__nom__1,parterre_de_coupe,Zone sur laquelle une coupe a lieu ; emprise de cette coupe.,object,artifact,inanimate,inanimate,artifact -0.72 | object -1.45 | other -2.46
+ws_4_bordée__nom__1,bordée,Partie de l’équipage attachée à un service donné du bord.,groupxperson,groupxperson,animate,animate,groupxperson -0.66 | other -1.99 | institution -3.20
+ws_1_Castelporcinien__nom__1,Castelporcinien,"Habitant de Château-Porcien, commune française située dans le département des Ardennes.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.01
+ws_1_arme_de_trait__nom__1,arme_de_trait,"Arme qui, par un système (e.g. bras de levier, ressort, etc.) pour tendre de la corde ou du bois, lance un projectile fort et loin par l’effet de détente de ce système.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.22 | object -5.92
+ws_1_Fournet__nom__1,Fournet,"Habitant de Fournet-Blancheroche, commune française située dans le département du Doubs.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.06
+ws_1_glycéré__nom__1,glycéré,Qui contient de la glycérine.,substance,substance,inanimate,inanimate,substance -0.08 | phenomenon -5.01 | object -5.06
+ws_1_redorte__nom__1,redorte,"Branche d’arbre tortillée en anneaux les uns sur les autres alternativement dessus/dessous. Le nombre d’anneaux (ou croisements) doivent être blasonnés et quand elle est feuillée, on doit indiquer le nombre de pièces.",cognition,cognition,information,information,cognition -0.17 | artifact -3.10 | artifact*cognition -4.33
+ws_1_métroloxie__nom__1,métroloxie,Obliquité de la matrice.,attribute,attribute,stative_situation,stative_situation,attribute -0.08 | state -3.96 | feeling -5.42
+ws_5_fiche__nom__1,fiche,Outil de fer des maçons qui leur sert à faire entrer le mortier dans les joints de pierre.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.44 | object -6.04
+ws_2_franconien__nom__1,franconien,Définition manquante ou à compléter. (Ajouter) Étage géologique…,object,object,inanimate,inanimate,object -0.13 | other -4.70 | body -4.71
+ws_1_eucalyptus_globuleux__nom__1,eucalyptus_globuleux,Synonyme de eucalyptus commun (espèce de plantes).,plant,plant,inanimate,inanimate,plant -0.08 | object -4.71 | body -5.11
+ws_1_Fredeyard__nom__1,Fredeyard,"Habitant de Laffrey, commune française située dans le département de l’Isère.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.04
+ws_3_bouche__nom__1,bouche,"Personne, par allusion à la nourriture qu’elle consomme.",person,person,animate,animate,person -0.04 | groupxperson -5.79 | state -5.99
+ws_1_simulateur_logique__nom__1,simulateur_logique,Outil logiciel permettant de connaître la réponse d’un circuit numérique à des signaux binaires.,artifact,artifact,inanimate,inanimate,artifact -0.07 | other -4.69 | artifact*cognition -5.29
+ws_1_décihertz__nom__1,décihertz,"Unité de mesure de fréquence du Système international (SI), valant 10−1 hertz, et dont le symbole est dHz.",quantity,quantity,quantity,quantity,quantity -0.25 | phenomenon -3.14 | attribute -3.99
+ws_2_Doulevantais__nom__1,Doulevantais,"Habitant de Doulevant-le-Petit, commune française située dans le département de la Haute-Marne.",person,person,animate,animate,person -0.03 | food -5.90 | state -5.97
+ws_1_quinine__nom__1,quinine,Alcaloïde végétal extrait du quinquina jaune (Cinchona calisaya). On l’utilise ainsi que ses dérivés utilisé pour lutter contre le paludisme.,substance,substance,inanimate,inanimate,substance -0.08 | phenomenon -5.08 | object -5.23
+ws_2_donneuse__nom__1,donneuse,"Personne, homme ou femme, qui pratique la délation.",person,person,animate,animate,person -0.03 | food -5.97 | state -6.23
+ws_1_SOA__nom__2,SOA,Abréviation de sangle d’ouverture automatique.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.31 | object -5.95
+ws_1_meitnérium__nom__1,meitnérium,Élément chimique synthétique de numéro atomique 109 et de symbole Mt appartenant à la série chimique des métaux de transition.,object,substance,inanimate,inanimate,substance -0.10 | object -4.45 | phenomenon -4.88
+ws_1_Fayellois__nom__1,Fayellois,"Habitant de Fayet, commune française située dans le département de l’Aisne.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.99
+ws_2_akébie__nom__1,akébie,"Fruit d’une plante du genre Akebia, comestible dans le cas des espèces Akebia quinata et Akebia trifoliata.",other,food,other,inanimate,food -0.14 | plant -3.60 | substance -4.75
+ws_1_Louvatangeais__nom__1,Louvatangeais,"Habitant de Louvatange, commune française située dans le département du Jura.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.01
+ws_4_indice__nom__1,indice,Indicateur économique.,cognition,quantity,information,quantity,quantity -0.45 | cognition -2.03 | possession -3.38
+ws_2_ramuscule__nom__1,ramuscule,"Extrémité terminale, pointe des ramules chez les champignons coralliformes.",plant,plant,inanimate,inanimate,plant -0.15 | object -3.39 | body -3.74
+ws_1_nuage_mur__nom__1,nuage_mur,Variante orthographique de nuage-mur.,object,object,inanimate,inanimate,object -0.20 | quantity -3.94 | other -3.99
+ws_1_effet_domino__nom__1,effet_domino,Entraînement d’évènements de proche en proche à partir d’un premier.,event,event,dynamic_situation,dynamic_situation,event -0.63 | phenomenon -1.71 | other -2.60
+ws_1_floralie__nom__1,floralie,"Solennité florale, exposition horticole.",act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.39 | act*cognition -4.80
+ws_1_Pistolois__nom__1,Pistolois,"Habitant ou personne originaire de Trois-Pistoles, ville québécoise [1].",person,person,animate,animate,person -0.03 | food -5.91 | state -5.99
+ws_1_écureuilloduc__nom__1,écureuilloduc,Passage aménagé à destination des écureuils ou à d’autres petits animaux arboricoles pour qu’ils puissent traverser sans risque une route ou un autre aménagement humain.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.29 | object -5.53
+ws_1_skeud__nom__1,skeud,Disque.,artifact*cognition,artifact,inanimate*information,inanimate,artifact -0.13 | artifact*cognition -4.05 | other -4.13
+ws_1_pérididyme__nom__1,pérididyme,Tunique albuginée des testicules.,body,body,inanimate,inanimate,body -0.09 | plant -4.83 | object -5.01
+ws_1_simoussi__nom__1,simoussi,"Outil du saunier, planchette avec un long manche pour récolter le gros sel.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.46 | object -6.00
+ws_2_énormité__nom__1,énormité,"Gravité, atrocité, en parlant de crimes, de méfaits.",attribute,attribute,stative_situation,stative_situation,attribute -0.08 | state -4.21 | cognition -5.03
+ws_1_IFC__nom__1,IFC,Internet Foundation Classes : bibliothèque graphique Java.,other,communication,other,information,communication -1.17 | cognition -1.71 | artifact -2.43
+ws_1_Beersoise__nom__1,Beersoise,Habitante de Beerse en Belgique.,person,person,animate,animate,person -0.03 | food -5.88 | state -6.10
+ws_1_inséminateur__nom__1,inséminateur,Professionnel de l’insémination artificielle.,person,person,animate,animate,person -0.03 | food -5.93 | state -6.21
+ws_1_perruche_moine__nom__1,perruche_moine,Autre nom vernaculaire de l’oiseau appelé conure veuve.,animal,animal,animate,animate,animal -0.07 | attribute -5.59 | relation -5.62
+ws_1_centrale_thermique__nom__1,centrale_thermique,Centrale électrique qui produit de l’électricité à partir d’une source de chaleur.,artifact,institution,inanimate,institution,institution -0.31 | other -2.08 | artifact -3.25
+ws_1_lin_à_glandes__nom__1,lin_à_glandes,Synonyme de lin campanulé (espèce de plante).,plant,plant,inanimate,inanimate,plant -0.08 | food -4.98 | object -5.11
+ws_1_clôturier__nom__1,clôturier,Vannier qui ne fait que de l’ouvrage battu.,person,person,animate,animate,person -0.03 | food -5.90 | state -6.08
+ws_1_Chapelle-Enchéricois__nom__1,Chapelle-Enchéricois,"Habitant de La Chapelle-Enchérie, commune française située dans le département du Loir-et-Cher.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.97
+ws_1_Touffrevillais__nom__1,Touffrevillais,"Habitant de Touffreville, commune française située dans le département de l’Eure.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.01
+ws_1_Vissecoise__nom__1,Vissecoise,"Habitante de Vissec, commune française située dans le département du Gard.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.13
+ws_1_Hubérien__nom__1,Hubérien,"Habitant de Saint-Pierre-de-Lamy, municipalité québécoise [1].",person,person,animate,animate,person -0.03 | food -5.92 | state -5.98
+ws_1_Essertinois__nom__1,Essertinois,"Habitant d’Essertines-en-Châtelneuf, commune française située dans le département de la Loire.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.98
+ws_1_Gérémaroise__nom__1,Gérémaroise,"Habitante de Saint-Germer-de-Fly, commune française située dans le département de l’Oise.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.08
+ws_1_aleurites__nom__1,aleurites,"Genre de plantes de la famille des euphorbiacées dont une espèce, le Bancoulier des Moluques donne une noix dont l’amande contient une huile aux propriétés purgatives, une autre fournit l’huile d’Abrasin.",plant,plant,inanimate,inanimate,plant -0.08 | object -5.03 | food -5.22
+ws_1_actinide__nom__1,actinide,"Élément chimique du tableau périodique se situant entre l’actinium et le lawrencium, et possédant donc un numéro atomique entre 89 et 103 (inclus).",object,substance,inanimate,inanimate,substance -0.16 | object -3.29 | phenomenon -4.69
+ws_1_poursuite_pénale__nom__1,poursuite_pénale,Action judiciaire menée contre une personne physique ou une personne morale devant une juridiction pénale.,act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.69 | act*cognition -3.88
+ws_1_rot__nom__2,rot,"Pourriture, maladie de la vigne.",event,event,dynamic_situation,dynamic_situation,event -0.55 | state -1.62 | other -2.87
+ws_1_rocher_de_Sisyphe__nom__1,rocher_de_Sisyphe,Travail interminable.,act,act,dynamic_situation,dynamic_situation,act -0.11 | other -3.11 | act*cognition -4.56
+ws_1_jambiya__nom__1,jambiya,"Poignard à lame courte courbe, porté à la ceinture dans les pays arabiques.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.28 | artifact*cognition -5.90
+ws_1_kaftan__nom__1,kaftan,Variante de caftan.,artifact,artifact,inanimate,inanimate,artifact -0.07 | other -4.69 | artifact*cognition -5.29
+ws_1_massacre__nom__1,massacre,Action de massacrer.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.72 | act*cognition -4.82
+ws_2_massacre__nom__1,massacre,"Grande tuerie de gibier, d’animaux.",act,act,dynamic_situation,dynamic_situation,act -0.07 | other -3.75 | act*cognition -4.89
+ws_3_massacre__nom__1,massacre,"Ramure, tête du gibier tué.",body,body,inanimate,inanimate,body -1.46 | artifact -1.81 | plant -2.08
+ws_4_massacre__nom__1,massacre,"Discours, critique très sévère qui n’épargne rien ni personne.",cognition,act*cognition,information,dynamic_situation*information,act*cognition -0.90 | cognition -1.04 | act -3.19
+ws_5_massacre__nom__1,massacre,"Meuble représentant une ramure de cervidé attachée à un crâne complet ou non dans les armoiries. Il est représenté de front. À rapprocher de caboché, hure, massacre crucifère, rencontre et tête.",cognition,cognition,information,information,cognition -0.07 | artifact*cognition -5.03 | act*cognition -5.09
+ws_1_débauchage__nom__1,débauchage,Action de débaucher un ouvrier.,act,act,dynamic_situation,dynamic_situation,act -0.07 | other -3.84 | act*cognition -4.79
+ws_2_débauchage__nom__1,débauchage,Incitation à la désertion d’un militaire.,act,act,dynamic_situation,dynamic_situation,act -0.07 | other -4.08 | act*cognition -4.36
+ws_1_cheminée__nom__1,cheminée,"Construction abritant un âtre, où l’on fait du feu, et comportant un conduit pour donner issue à la fumée.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.28 | object -5.82
+ws_2_cheminée__nom__1,cheminée,Partie inférieure de cette construction qui lui sert d’encadrement en avançant dans une pièce.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.26 | object -5.78
+ws_3_cheminée__nom__1,cheminée,Partie supérieure du conduit en maçonnerie qui domine le toit ; souche.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.28 | object -5.66
+ws_4_cheminée__nom__1,cheminée,Conduit d’évacuation des fumées.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.31 | object -5.72
+ws_5_cheminée__nom__1,cheminée,Petite ouverture sur le dessus d’une pâte d’une tourte pour permettre à la vapeur de s’échapper lors de la cuisson.,artifact,artifact,inanimate,inanimate,artifact -0.07 | food -4.82 | other -5.02
+ws_6_cheminée__nom__1,cheminée,"Couloir étroit plus ou moins vertical (fissure large, dièdre) permettant l’insertion du corps du grimpeur et l’usage de techniques particulières.",object,artifact,inanimate,inanimate,artifact -0.66 | object -1.10 | other -3.61
+ws_8_cheminée__nom__1,cheminée,"Partie du clétage de certains instruments à vents solidaire du corps, servant à faire la jointure entre les tampons plats des clapets et le corps arrondi au niveau des trous.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.46 | object -5.78
+ws_9_cheminée__nom__1,cheminée,"Conduit plus ou moins vertical servant à l’aération ou au transport de matériaux, personnels, etc.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.35 | object -5.82
+ws_10_cheminée__nom__1,cheminée,Définition manquante ou à compléter. (Ajouter)…,object,artifact,inanimate,inanimate,artifact -0.13 | other -3.89 | cognition -3.90
+ws_1_inexactitude__nom__1,inexactitude,Défaut d’exactitude ou de précision.,attribute,attribute,stative_situation,stative_situation,attribute -0.09 | state -3.84 | cognition -4.52
+ws_2_inexactitude__nom__1,inexactitude,Manque de régularité ou de ponctualité.,attribute,attribute,stative_situation,stative_situation,attribute -0.07 | state -4.43 | cognition -4.92
+ws_1_affliction__nom__1,affliction,Immense chagrin ; abattement profond.,feeling,feeling,stative_situation,stative_situation,feeling -0.14 | state -4.57 | event -4.63
+ws_2_affliction__nom__1,affliction,Grand malheur ; catastrophe.,event,event,dynamic_situation,dynamic_situation,event -0.27 | other -3.06 | state -3.20
+ws_1_mépris__nom__1,mépris,"Sentiment par lequel on juge une personne ou une chose indigne d’estime, d’égards, d’attention.",feeling,feeling,stative_situation,stative_situation,feeling -0.14 | attribute -4.50 | state -4.66
+ws_2_mépris__nom__1,mépris,"Sentiment par lequel on s’élève au-dessus de l’amour de la vie, de la crainte de la mort, du danger.",feeling,feeling,stative_situation,stative_situation,feeling -0.14 | attribute -4.59 | state -4.73
+ws_3_mépris__nom__1,mépris,Paroles ou actes de mépris.,act,act,dynamic_situation,dynamic_situation,act -0.39 | act*cognition -2.43 | feeling -3.16
+ws_1_gens__nom__1,gens,Personnes en nombre indéterminé.,groupxperson,groupxperson,animate,animate,groupxperson -1.07 | person -1.27 | other -2.90
+ws_2_gens__nom__1,gens,"Population, dans un ensemble indistinct, sans relief.",groupxperson,groupxperson,animate,animate,groupxperson -0.68 | other -2.55 | quantity -2.73
+ws_3_gens__nom__1,gens,"Tous ceux qui sont d’un état, d’une profession quelconque. — Note : il est suivi de la préposition de et d’un nom qui désigne cette profession, ou cet état.",groupxperson,person,animate,animate,person -0.16 | groupxperson -3.27 | other -4.63
+ws_4_gens__nom__1,gens,"Ceux qui sont d’un parti, par opposition à ceux de l’autre.",groupxperson,person,animate,animate,person -0.12 | groupxperson -3.65 | other -4.94
+ws_6_gens__nom__1,gens,Domestiques.,groupxperson,person,animate,animate,person -0.12 | groupxperson -3.78 | other -4.91
+ws_7_gens__nom__1,gens,"Les parents, père et mère.",groupxperson,person,animate,animate,person -0.12 | groupxperson -3.74 | other -4.80
+ws_1_gens__nom__2,gens,Clan familial.,groupxperson,groupxperson,animate,animate,groupxperson -0.65 | other -2.09 | institution -2.83
+ws_1_lycéen__nom__1,lycéen,Élève d’un lycée.,person,person,animate,animate,person -0.03 | food -5.94 | state -6.07
+ws_1_tante__nom__1,tante,Sœur de l’un des deux parents.,person,person,animate,animate,person -0.04 | food -5.93 | state -6.08
+ws_2_tante__nom__1,tante,Cousine de l’’un des deux parents.,person,person,animate,animate,person -0.04 | food -5.93 | state -6.09
+ws_3_tante__nom__1,tante,Conjointe d’un oncle.,person,person,animate,animate,person -0.03 | food -5.90 | state -6.13
+ws_4_tante__nom__1,tante,Homosexuel efféminé.,person,person,animate,animate,person -0.03 | food -5.88 | state -6.17
+ws_5_tante__nom__1,tante,Mont-de-piété.,institution,institution,institution,institution,institution -1.06 | artifact -1.11 | other -1.67
+ws_6_tante__nom__1,tante,Exploitant d’attraction de foire.,person,person,animate,animate,person -0.03 | food -5.93 | state -6.08
+ws_1_photographe__nom__1,photographe,Personne qui prend des photographies.,person,person,animate,animate,person -0.03 | food -5.95 | state -6.17
+ws_2_photographe__nom__1,photographe,"Personne qui s’occupe professionnellement de photographie, qui en fait son métier.",person,person,animate,animate,person -0.03 | food -5.92 | state -6.14
+ws_3_photographe__nom__1,photographe,Nom donné à l’assistant-bourreau qui tient la tête du condamné dans la lunette de la guillotine.,person,person,animate,animate,person -0.03 | food -5.92 | artifact -6.07
+ws_1_assassin__nom__1,assassin,Celui ou celle qui assassine.,person,person,animate,animate,person -0.03 | food -5.94 | state -6.16
+ws_2_assassin__nom__1,assassin,"Nom donné à une mouche, un grain de beauté factice. Le Nouveau dictionnaire universel de Prosper Poitevin ( 1868 ) la définit comme placée sous l’œil ( voir assassine ).",artifact,animal,inanimate,animate,animal -0.11 | object -4.09 | plant -4.80
+ws_1_ronron__nom__1,ronron,Onomatopée qui sert à désigner le ronflement continu et sourd par lequel les chats expriment leur contentement.,act,phenomenon,dynamic_situation,dynamic_situation,phenomenon -0.52 | event -2.85 | other -3.14
+ws_2_ronron__nom__1,ronron,Bruit semblable à ce ronflement.,phenomenon,phenomenon,dynamic_situation,dynamic_situation,phenomenon -0.43 | event -3.02 | other -3.43
+ws_3_ronron__nom__1,ronron,Façon pompeuse et monotone de déclamer.,attribute,attribute,stative_situation,stative_situation,attribute -0.64 | phenomenon -2.49 | act -2.73
+ws_4_ronron__nom__1,ronron,Routine.,phenomenon,phenomenon,dynamic_situation,dynamic_situation,phenomenon -0.90 | event -1.54 | other -2.73
+ws_1_campanule__nom__1,campanule,"Genre de plantes dont il existe un très grand nombre d’espèces, qui toutes portent des fleurs en forme de cloches, et que l’on cultive, pour la plupart, dans les jardins d’agrément.",plant,plant,inanimate,inanimate,plant -0.08 | object -5.03 | food -5.19
+ws_1_centimètre__nom__1,centimètre,"Unité de mesure de longueur du Système international (SI), valant 10−2 mètre, et dont le symbole est cm.",quantity,quantity,quantity,quantity,quantity -0.14 | cognition -4.59 | attribute -4.64
+ws_2_centimètre__nom__1,centimètre,Ruban divisé en centimètres et servant à prendre des mesures.,artifact,quantity,inanimate,quantity,quantity -0.30 | artifact -2.72 | other -3.85
+ws_1_infertilité__nom__1,infertilité,État de ce qui est infertile.,state,state,stative_situation,stative_situation,state -0.13 | attribute -4.01 | event -4.42
+ws_2_infertilité__nom__1,infertilité,État d’un couple qui n’arrive pas à faire des enfants.,state,state,stative_situation,stative_situation,state -0.13 | attribute -4.17 | event -4.46
+ws_3_infertilité__nom__1,infertilité,"Impossibilité partielle et souvent transitoire de la reproduction, par le mâle ou par la femelle ou les deux.",state,state,stative_situation,stative_situation,state -0.15 | event -3.87 | attribute -4.14
+ws_1_inox__nom__1,inox,Matériau dit inoxydable.,substance,substance,inanimate,inanimate,substance -0.10 | object -4.67 | phenomenon -4.74
+ws_2_inox__nom__1,inox,Acier inoxydable.,substance,substance,inanimate,inanimate,substance -0.09 | object -4.87 | phenomenon -4.90
+ws_1_vanadium__nom__1,vanadium,Élément chimique de numéro atomique 23 et de symbole V qui fait partie des métaux de transition.,substance,substance,inanimate,inanimate,substance -0.10 | object -4.32 | phenomenon -4.90
+ws_2_vanadium__nom__1,vanadium,"Métal pur de cet élément, blanc, qui se combine à l’oxygène, au chlore, à l’azote.",substance,substance,inanimate,inanimate,substance -0.09 | object -4.74 | phenomenon -4.98
+ws_3_vanadium__nom__1,vanadium,"Atome (ou, par ellipse, noyau) de vanadium.",substance,substance,inanimate,inanimate,substance -0.09 | object -4.63 | phenomenon -4.98
+ws_4_vanadium__nom__1,vanadium,"Alliages de vanadium, dans leur ensemble.",substance,substance,inanimate,inanimate,substance -0.09 | object -4.62 | phenomenon -5.00
+ws_5_voisinage__nom__1,voisinage,Ensemble des personnes voisines.,groupxperson,groupxperson,animate,animate,groupxperson -0.62 | other -2.49 | quantity -2.82
+ws_57_pièce__nom__1,pièce,"Petite somme d’argent donnée comme gratification, comme pourboire. → voir donner la pièce",possession,possession,possession,possession,possession -0.14 | other -4.18 | quantity -4.24
+ws_61_pièce__nom__1,pièce,"Document constitutive d’un contrat, d’un marché. → voir pièce marché, pièce écrite et pièce graphique",artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.60 | cognition -2.62 | act*cognition -2.76
+ws_11_fiche__nom__1,fiche,"Petite feuille de carton sur laquelle on écrit soit des titres d’ouvrages que l’on veut cataloguer, soit des renseignements sur une personne ou un fait que l’on veut conserver et retrouver facilement.",artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.94 | artifact -1.40 | other -3.00
+ws_12_fiche__nom__1,fiche,"Petite feuille de carton qui servait à transmettre à un agent de change, pendant la bourse, les ordres d’un client.",artifact*cognition,artifact,inanimate*information,inanimate,artifact -0.57 | artifact*cognition -1.75 | other -3.21
+ws_14_fiche__nom__1,fiche,"Document cartonné à caractère nominatif, appelé fiche d’hôtel ou fiche de police, que doit remplir un client à son arrivée dans un établissement hôtelier.",artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.68 | artifact -2.36 | other -3.04
+ws_1_Vacquiéraine__nom__1,Vacquiéraine,"Habitante de Vacquiers, commune française située dans le département de la Haute-Garonne.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.06
+ws_1_BAD__nom__1,BAD,"Pour les survivalistes, lieu où se réfugier en cas de catastrophe de grande ampleur et survivre de manière rudimentaire.",artifact,artifact,inanimate,inanimate,artifact -0.06 | other -4.37 | institution -5.28
+ws_1_oiseau_de_paradis__nom__1,oiseau_de_paradis,Synonyme de paradisier.,animal,animal,animate,animate,animal -0.07 | plant -5.24 | object -5.50
+ws_2_Reilhacois__nom__1,Reilhacois,"Habitant de Reilhac, commune française située dans le département du Lot.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.04
+ws_6_écho__nom__1,écho,Répétition adoucie ou affaiblie d’une ou de plusieurs notes.,phenomenon,phenomenon,dynamic_situation,dynamic_situation,phenomenon -0.60 | event -2.50 | other -2.83
+ws_11_Capellois__nom__1,Capellois,"Habitant de Saint-Omer-Capelle, commune française située dans le département du Pas-de-Calais.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.97
+ws_1_nisan__nom__1,nisan,Le septième mois de l’année civile des Hébreux et le premier de leur année sacrée.,time,time,time,time,time -0.13 | cognition -4.68 | event -4.82
+ws_1_Lissacoise__nom__1,Lissacoise,"Habitante de Lissac, commune française située dans le département de l’Ariège.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.11
+ws_1_Meyrieulande__nom__1,Meyrieulande,"Habitante de Meyrieux-Trouet, commune française située dans le département de la Savoie.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.13
+ws_1_loup-cerve__nom__1,loup-cerve,Femelle du loup-cervier.,animal,animal,animate,animate,animal -0.07 | relation -5.58 | attribute -5.59
+ws_1_mansionnaire__nom__1,mansionnaire,Résident.,person,person,animate,animate,person -0.03 | state -5.84 | food -5.91
+ws_1_demi-jonc__nom__1,demi-jonc,"Anneau dont la section est plus ou moins semi-circulaire, c’est à dire la moitié de celle d’un jonc. Le coté plat étant à l’intérieur de l’anneau.",artifact,artifact,inanimate,inanimate,artifact -0.10 | object -3.68 | other -4.45
+ws_1_hauteur_sous_plafond__nom__1,hauteur_sous_plafond,Hauteur des murs d’un bâtiment ; distance mesurée verticalement entre le sol et le plafond.,attribute,attribute,stative_situation,stative_situation,attribute -0.13 | quantity -3.74 | state -4.15
+ws_15_Saint-Victorien__nom__1,Saint-Victorien,"Habitant de Saint-Victor-de-Buthon, commune française située dans le département de l’Eure-et-Loir.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.99
+ws_1_Gigordon__nom__1,Gigordon,"Habitant de Gigors, commune française située dans le département des Alpes-de-Haute-Provence.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.02
+ws_1_débroussailleur__nom__1,débroussailleur,Engin utilisé pour débroussailler.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.30 | institution -5.90
+ws_4_grue__nom__1,grue,"Meuble représentant l’animal du même nom dans les armoiries. Elle est généralement représentée de profil, ailes repliées, debout sur sa patte senestre, la dextre étant repliée et saisissant un globe ou une pierre sphérique appelée vigilance. À rapprocher de héron.",cognition,cognition,information,information,cognition -0.07 | artifact*cognition -5.05 | act*cognition -5.06
+ws_1_rostein__nom__1,rostein,"Grosse bobine en bois, utilisée entre autre pour la corde.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.33 | object -5.86
+ws_1_multimodalité__nom__1,multimodalité,Présence de plusieurs modes de transport différents entre deux lieux.,state,state,stative_situation,stative_situation,state -0.59 | attribute -1.47 | relation -3.02
+ws_1_porte-voix__nom__1,porte-voix,"Tuyau de métal, en forme de trompette droite et largement évasée, qui sert à porter la voix au loin.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.47 | object -5.91
+ws_1_signal_second__nom__1,signal_second,Écho supplémentaire reçu après un délai supérieur à la période de récurrence des impulsions du radar.,phenomenon,phenomenon,dynamic_situation,dynamic_situation,phenomenon -0.56 | quantity -3.18 | event -3.21
+ws_1_bayoud__nom__1,bayoud,"Maladie des palmiers-dattiers, causée par une espèce de fusariose (Fusarium oxysporum, forme albedinis).",event,state,dynamic_situation,stative_situation,state -0.86 | event -1.03 | other -3.02
+ws_22_point__nom__1,point,État ; situation.,state,state,stative_situation,stative_situation,state -0.15 | attribute -3.59 | feeling -4.65
+ws_3_lessive__nom__1,lessive,"Linge sale qui doit être lessivé, qui a été lavé.",other,artifact,other,inanimate,artifact -0.08 | other -4.34 | substance -5.08
+ws_24_pièce__nom__1,pièce,"Élément d’une partie spécifique de l’insecte. → voir pièce buccale, pièce abdominale et pièce génitale",body,body,inanimate,inanimate,body -0.09 | plant -4.89 | object -5.16
+ws_2_trotte-chemin__nom__1,trotte-chemin,Quelqu’un qui passe son temps à courir à droite et à gauche.,person,person,animate,animate,person -0.03 | food -5.96 | state -6.00
+ws_2_pinnule__nom__1,pinnule,Division ultime des folioles d’une feuille chez les fougères.,plant,plant,inanimate,inanimate,plant -0.08 | object -4.65 | body -4.93
+ws_1_superstatoréacteur__nom__1,superstatoréacteur,Statoréacteur à combustion supersonique,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.42 | object -5.59
+ws_1_plan_méridien_origine__nom__1,plan_méridien_origine,Plan méridien particulier choisi comme origine des longitudes.,cognition,cognition,information,information,cognition -0.20 | quantity -3.25 | communication -3.78
+ws_1_Bourgeoise__nom__1,Bourgeoise,"Habitante de Bourg, commune française située dans le département de la Haute-Marne.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.09
+ws_1_Villargent__nom__1,Villargent,"Habitant de Villargent, commune française située dans le département de la Haute-Saône.",person,person,animate,animate,person -0.03 | food -5.93 | state -6.04
+ws_1_tchipage__nom__1,tchipage,Synonyme de tchip.,act,phenomenon,dynamic_situation,dynamic_situation,phenomenon -1.03 | event -1.89 | other -2.06
+ws_1_muscle_génio-hyoïdien__nom__1,muscle_génio-hyoïdien,Muscle qui s’étend du menton à l’os hyoïde.,body,body,inanimate,inanimate,body -0.09 | plant -4.99 | feeling -5.23
+ws_1_Macrolépidoptères__nom__1,Macrolépidoptères,Sous-ordre des lépidoptères.,other,animal,other,animate,animal -0.08 | object -5.33 | plant -5.38
+ws_1_webisode__nom__1,webisode,"Épisode, généralement court, d’une série qui est diffusé uniquement sur Internet.",cognition,artifact*cognition,information,inanimate*information,artifact*cognition -0.66 | cognition -2.28 | act*cognition -2.60
+ws_1_risque_naturel__nom__1,risque_naturel,"Risque d’exposition à une catastrophe naturelle ou aux dangers de réalisation de certains aléas naturels, géologique, climatique, biologique ou autres.",phenomenon,event,dynamic_situation,dynamic_situation,event -0.74 | phenomenon -1.89 | other -2.60
+ws_1_tranelle__nom__1,tranelle,Trèfle rampant.,plant,plant,inanimate,inanimate,plant -0.08 | object -4.86 | body -5.08
+ws_1_pneumogramme__nom__1,pneumogramme,"Tracé des mouvements respiratoires, obtenu grâce à un pneumographe.",artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.96 | cognition -1.67 | act*cognition -2.05
+ws_1_œnochoé__nom__1,œnochoé,Pichet pour le vin.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.20 | act -5.98
+ws_1_coffle__nom__1,coffle,Caravane.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -4.99 | object -5.89
+ws_1_nif__nom__1,nif,"Orgueil, fierté, sens de l’honneur.",feeling,attribute,stative_situation,stative_situation,attribute -0.34 | feeling -1.87 | state -4.10
+ws_1_cocoteraie__nom__1,cocoteraie,Lieu planté de cocotiers.,object,object,inanimate,inanimate,object -0.15 | artifact -3.95 | other -4.15
+ws_1_eudémon__nom__1,eudémon,Bon génie.,person,person,animate,animate,person -0.04 | state -5.82 | food -5.94
+ws_1_corvettard__nom__1,corvettard,Capitaine de corvette (grade d’officier de marine entre le lieutenant de vaisseau et le capitaine de frégate).,person,person,animate,animate,person -0.04 | state -5.21 | food -5.78
+ws_1_désidentification__nom__1,désidentification,Fait de perdre son identité.,event,event,dynamic_situation,dynamic_situation,event -0.43 | other -2.25 | state -2.56
+ws_1_microradiographie__nom__1,microradiographie,Radiographie de choses très petites.,act,act,dynamic_situation,dynamic_situation,act -0.63 | act*cognition -1.87 | other -2.48
+ws_2_intersexués__nom__1,intersexués,Ensemble des hommes intersexués.,groupxperson,person,animate,animate,person -0.92 | groupxperson -1.29 | other -3.15
+ws_12_jour__nom__1,jour,Trou dans une surface continue ou un tamis.,object,artifact,inanimate,inanimate,artifact -0.06 | object -4.62 | other -4.99
+ws_1_drillage__nom__1,drillage,Opération de polissage de l’intérieur du chas d’une aiguille.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.62 | act*cognition -4.95
+ws_1_lime__nom__2,lime,"Citron vert, fruit du limettier.",food,food,inanimate,inanimate,food -0.10 | plant -4.59 | person -4.95
+ws_1_épigramme__nom__2,épigramme,Petit morceau de viande finement coupé.,food,food,inanimate,inanimate,food -0.10 | person -4.98 | plant -5.08
+ws_1_infusum__nom__1,infusum,Produit d’une infusion.,substance,substance,inanimate,inanimate,substance -0.18 | food -3.08 | phenomenon -4.68
+ws_1_Caldérienne__nom__1,Caldérienne,"Habitante de Chaudrey, commune française située dans le département de l’Aube.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.12
+ws_1_tapis_de_course__nom__1,tapis_de_course,Simulateur-ergomètre de course à pied.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.24 | institution -6.00
+ws_1_tarte_aux_noix_de_pécan__nom__1,tarte_aux_noix_de_pécan,Tarte sucrée dont la garniture est essentiellement faite avec des noix de pécan.,food,food,inanimate,inanimate,food -0.10 | person -4.92 | plant -5.17
+ws_1_gueulade__nom__1,gueulade,"Cri ou suite de cris, vociférations, d’une personne qui gueule, de personnes qui gueulent.",act*cognition,act,dynamic_situation*information,dynamic_situation,act -0.36 | other -2.50 | act*cognition -2.55
+ws_1_paraphimosis__nom__1,paraphimosis,"Maladie dans laquelle le prépuce est tellement renversé et gonflé, qu’on ne peut le rabattre pour couvrir le gland.",state,state,stative_situation,stative_situation,state -0.16 | event -3.60 | other -4.37
+ws_1_piano_pop__nom__1,piano_pop,Genre issu du rock progressif caractérisé par l’utilisation du piano ou un instrument à clavier comme instrument principal.,cognition,cognition,information,information,cognition -0.12 | act*cognition -4.25 | communication -4.29
+ws_1_Camilien__nom__1,Camilien,"Habitant de Saint-Camille-de-Lellis, municipalité de paroisse québécoise [1].",person,person,animate,animate,person -0.03 | food -5.92 | state -5.96
+ws_1_Saint-Léonois__nom__1,Saint-Léonois,"Habitant de Saint-Léons, commune française située dans le département de l’Aveyron.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.00
+ws_1_sigmoïde__nom__2,sigmoïde,Fonction représentée par une courbe en forme de S.,quantity,quantity,quantity,quantity,quantity -0.41 | cognition -2.02 | attribute -3.80
+ws_1_buddha_bowl__nom__1,buddha_bowl,"Dans l’alimentation de forme, mélange cru et cuit de céréales, de légumineuses et de légumes, inspiré par la nourriture des monastères bouddhistes.",food,food,inanimate,inanimate,food -0.10 | person -5.00 | plant -5.22
+ws_1_tourne-gants__nom__1,tourne-gants,"Petit instrument pour retourner les gants et les assouplir, afin de les mettre facilement.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.35 | object -6.06
+ws_4_chapelle__nom__1,chapelle,"Lieu où l’on célèbre l’office religieux, dans un domaine privé, dans un hospice, dans un collège, etc.",artifact,artifact,inanimate,inanimate,artifact -0.15 | other -3.04 | institution -3.51
+ws_1_Mouansois__nom__1,Mouansois,"Habitant de Mouans-Sartoux, commune française située dans le département des Alpes-Maritimes.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.00
+ws_1_eupatride__nom__1,eupatride,Sorte d’aristocrate de l’Athènes antique.,person,person,animate,animate,person -0.03 | food -5.91 | state -5.91
+ws_6_Bastidoise__nom__1,Bastidoise,"Habitante de Labastide-de-Lévis, commune française située dans le département du Tarn.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.11
+ws_3_Pierrevillois__nom__1,Pierrevillois,"Habitant de Pierrevillers, commune française située dans le département de la Moselle.",person,person,animate,animate,person -0.03 | food -5.90 | state -5.99
+ws_1_décennat__nom__1,décennat,"Mandat de dix ans ; exercice, durée de cette magistrature.",time,time,time,time,time -0.36 | state -2.75 | event -3.38
+ws_1_échelle_internationale_des_évènements_nucléaires_et_radiologiques__nom__1,échelle_internationale_des_évènements_nucléaires_et_radiologiques,Classement des évènements nucléaires et radiologiques par ordre croissant de gravité.,cognition,attribute,information,stative_situation,attribute -0.52 | cognition -1.61 | state -3.32
+ws_4_direction__nom__1,direction,Service placé sous l’autorité d’un directeur.,institution,institution,institution,institution,institution -0.22 | other -2.42 | artifact -4.49
+ws_1_élevage__nom__1,élevage,Action d’élever les animaux domestiques.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.60 | act*cognition -4.90
+ws_1_barlos__nom__1,barlos,Synonyme de baraki.,person,cognition,animate,information,cognition -1.15 | object -2.10 | other -2.34
+ws_3_gloriette__nom__1,gloriette,Petit retranchement derrière le four d’une boulangerie.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.20 | object -5.58
+ws_8_queue-de-renard__nom__1,queue-de-renard,Prêle des champs (Equisetum arvense).,plant,plant,inanimate,inanimate,plant -0.08 | object -4.81 | body -5.10
+ws_1_tétrastique__nom__1,tétrastique,Variante de tétrastiche.,cognition,communication,information,information,communication -0.36 | cognition -2.30 | act*cognition -4.21
+ws_1_adferme__nom__1,adferme,Cousin germain.,person,person,animate,animate,person -0.05 | animal -5.37 | state -5.51
+ws_1_circuit_automobile__nom__1,circuit_automobile,Piste servant aux courses de vitesse pour véhicules motorisés.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -4.90 | object -5.66
+ws_1_rog__nom__1,rog,« ? » ou point d’interrogation,communication,communication,information,information,communication -0.35 | cognition -2.64 | quantity -3.94
+ws_1_pluriactivité__nom__1,pluriactivité,"Situation d’une personne qui combine, alternativement ou simultanément, plusieurs activités professionnelles sur une année.",state,state,stative_situation,stative_situation,state -0.14 | attribute -3.79 | event -4.63
+ws_1_meurtrière__nom__2,meurtrière,Ouverture pratiquée dans les murs d’une fortification et par laquelle on peut tirer à couvert sur les assiégeants.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.34 | object -5.70
+ws_1_yoctoampère__nom__1,yoctoampère,"Unité de mesure d’intensité du courant électrique du Système international (SI), valant 10−24 ampère, et dont le symbole est yA.",quantity,quantity,quantity,quantity,quantity -0.14 | phenomenon -4.18 | attribute -4.65
+ws_1_Nordcôtier__nom__1,Nordcôtier,"Habitant de la Côte-Nord, région administrative québécoise [1].",person,person,animate,animate,person -0.03 | food -5.93 | state -6.01
+ws_7_plot__nom__1,plot,Massif de laiton dont l’horloger se sert pour river la masse sur la platine.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.44 | object -5.71
+ws_1_mélastome__nom__1,mélastome,"Arbrisseau ou arbuste de l’ordre des Myrtales, à feuilles opposées, persistantes, à fleurs pourpres ou violettes et dont le fruit est une baie charnue, comestible, qui a la propriété de colorer la bouche en noir.",plant,plant,inanimate,inanimate,plant -0.08 | object -5.13 | body -5.17
+ws_1_punaise_marbrée__nom__1,punaise_marbrée,Insecte piqueur-suceur envahissant et ravageur des cultures.,animal,animal,animate,animate,animal -0.07 | object -5.25 | plant -5.31
+ws_3_anis__nom__1,anis,Dragée que l’on fait avec de l’anis.,food,food,inanimate,inanimate,food -0.10 | person -5.04 | plant -5.23
+ws_1_Oyonnaxien__nom__1,Oyonnaxien,"Habitant d’Oyonnax, commune française située dans le département de l’Ain.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.98
+ws_1_marcheuse__nom__1,marcheuse,Celle qui marche.,person,person,animate,animate,person -0.03 | food -5.93 | artifact -6.18
+ws_1_bief__nom__1,bief,"Portion d’un canal de navigation ou d’une rivière canalisée comprise entre deux écluses, deux barrages ou deux chutes.",other,artifact,other,inanimate,artifact -0.07 | object -4.37 | other -4.64
+ws_1_spathe__nom__1,spathe,Nom donné à une lourde et courte épée utilisée par les Gaulois.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.35 | act -6.05
+ws_1_vavangue__nom__1,vavangue,"Nom vernaculaire de Vangueria madagascariensis, arbre originaire de Madagascar, que l’on rencontre également à La Réunion.",plant,plant,inanimate,inanimate,plant -0.08 | object -4.89 | body -5.15
+ws_2_curseur__nom__1,curseur,Fil que l’on peut déplacer dans le champ d’un micromètre pour mesurer le diamètre apparent d’un astre.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.28 | object -5.73
+ws_1_débarbouillage__nom__1,débarbouillage,Action de débarbouiller.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.63 | act*cognition -4.96
+ws_2_rancher__nom__1,rancher,"Barre verticale disposée en bordure d’une plateforme ou d’un panier, destinée à retenir les charges de grande longueur, comme des grumes, des tubes, des rails.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.42 | object -5.83
+ws_1_Poinsonnaise__nom__1,Poinsonnaise,"Habitante de Poinson-lès-Fayl, commune française située dans le département de la Haute-Marne.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.09
+ws_3_appréhension__nom__1,appréhension,Crainte.,feeling,feeling,stative_situation,stative_situation,feeling -0.14 | state -4.69 | phenomenon -4.71
+ws_1_Kainri__nom__1,Kainri,Américain.,person,person,animate,animate,person -0.03 | food -5.88 | state -6.07
+ws_1_témoigne__nom__1,témoigne,Variante de témoignage.,act*cognition,act*cognition,dynamic_situation*information,dynamic_situation*information,act*cognition -0.58 | cognition -2.21 | artifact*cognition -2.76
+ws_1_lotta__nom__1,lotta,"Engagée volontaire comme auxiliaire dans les forces armées finlandaises, membre de l’organisation Lotta Svärd (créée en 1918).",person,person,animate,animate,person -0.03 | food -5.96 | state -6.19
+ws_3_loupe__nom__1,loupe,Excroissance ligneuse qui se développe sur le tronc ou sur les branches de certains arbres.,object,plant,inanimate,inanimate,plant -0.21 | object -2.62 | body -4.02
+ws_1_ciluba__nom__1,ciluba,Variante de tshiluba.,communication,communication,information,information,communication -0.26 | cognition -4.10 | body -4.15
+ws_1_entérite_paratuberculeuse__nom__1,entérite_paratuberculeuse,Synonyme de paratuberculose.,event,state,dynamic_situation,stative_situation,state -0.22 | event -2.70 | other -4.00
+ws_1_taxi-brousse__nom__1,taxi-brousse,Taxi collectif interurbain.,artifact,artifact,inanimate,inanimate,artifact -1.28 | institution -1.31 | other -1.41
+ws_1_vinoscope__nom__1,vinoscope,Appareil pour déterminer la teneur en alcool d’un vin.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.19 | institution -5.97
+ws_1_C-pop__nom__1,C-pop,Abréviation de musique populaire chinoise.,cognition,cognition,information,information,cognition -0.24 | communication -3.22 | act*cognition -3.72
+ws_3_oriflamme__nom__1,oriflamme,Voile imprimée servant de support de communication.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -5.04 | artifact*cognition -5.28
+ws_1_micropsie__nom__1,micropsie,Altération de la vue dans laquelle on voit les objets plus petits qu’ils ne paraîtraient dans l’état normal de l’œil.,event,state,dynamic_situation,stative_situation,state -0.17 | event -3.31 | other -4.13
+ws_2_tourillon__nom__1,tourillon,"Gros pivot sur lequel tourne une porte cochère, une grille, un pont-levis.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.40 | object -5.76
+ws_1_tack__nom__1,tack,"Capacité d’une colle, d’un adhésif de s’accrocher immédiatement au contact d’un support.",attribute,attribute,stative_situation,stative_situation,attribute -0.08 | state -4.52 | cognition -5.26
+ws_1_SSE__nom__1,SSE,Sud-sud-est.,quantity,object,quantity,inanimate,object -1.61 | phenomenon -1.85 | quantity -2.25
+ws_4_planimétrie__nom__1,planimétrie,"Technique ayant pour but de déterminer sur des zones de faible étendue, la projection à l’horizontale d’éléments topographiques.",act,cognition,dynamic_situation,information,cognition -0.10 | act*cognition -4.39 | attribute -4.50
+ws_1_acret__nom__1,acret,Danger.,event,event,dynamic_situation,dynamic_situation,event -1.49 | state -2.02 | phenomenon -2.12
+ws_1_Jovien__nom__3,Jovien,"Habitant de Jouy, commune française située dans le département de l’Eure-et-Loir.",person,person,animate,animate,person -0.03 | food -5.92 | state -6.02
+ws_1_char_lourd__nom__1,char_lourd,"Char d’assaut fortement blindé, se déplaçant par conséquence lentement.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.10 | object -5.80
+ws_1_traqué__nom__1,traqué,Homme qui fait l’objet d’une traque.,person,person,animate,animate,person -0.03 | food -5.98 | state -6.04
+ws_1_Lenoncourtoise__nom__1,Lenoncourtoise,"Habitante de Lenoncourt, commune française située dans le département de la Meurthe-et-Moselle.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.08
+ws_1_galipe__nom__1,galipe,Copeau de pin.,object,object,inanimate,inanimate,object -0.57 | plant -2.06 | substance -2.39
+ws_1_décuirassement__nom__1,décuirassement,Action d’ôter la cuirasse à un navire.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.57 | act*cognition -4.96
+ws_1_région_française_d’outre-mer__nom__1,région_française_d’outre-mer,Région administrative située hors du territoire métropolitain français.,institution,institution,institution,institution,institution -0.16 | other -3.02 | groupxperson -4.71
+ws_1_quatrième_âge__nom__1,quatrième_âge,"Ensemble des personnes très âgées, souvent dépendantes.",groupxperson,groupxperson,animate,animate,groupxperson -0.74 | person -2.18 | other -2.54
+ws_2_éricacée__nom__1,éricacée,"Famille botanique dont font partie l’arbousier, les myrtilles, le raisin d’ours, les rhododendrons et les bruyères.",plant,plant,inanimate,inanimate,plant -0.08 | object -4.99 | food -5.26
+ws_1_oince__nom__1,oince,Phalanges ou jointures des phalanges des doigts.,body,body,inanimate,inanimate,body -0.10 | plant -4.85 | feeling -5.24
+ws_6.a_assomption__nom__1,assomption,"Dans le stoïcisme, hypothèse, notion de base que l’on considère comme étant valide d’avance.",cognition,cognition,information,information,cognition -0.07 | act*cognition -4.35 | artifact*cognition -5.13
+ws_1_Houlbecquois__nom__1,Houlbecquois,"Habitant de Houlbec-Cocherel, commune française située dans le département de l’Eure.",person,person,animate,animate,person -0.03 | food -5.89 | state -5.97
+ws_1_retombées_radioactives__nom__1,retombées_radioactives,Substances radioactives se déposant sur le sol après leur émission accidentelle dans l’atmosphère par une installation nucléaire.,substance,phenomenon,inanimate,dynamic_situation,phenomenon -1.25 | object -1.61 | event -1.62
+ws_2_faîte__nom__1,faîte,Sommet de certaines choses qui ont de l’élévation.,quantity,quantity,quantity,quantity,quantity -0.62 | object -2.48 | attribute -2.51
+ws_1_hack__nom__2,hack,Cheval monté pour surveiller les performances et le comportement des autres chevaux.,animal,animal,animate,animate,animal -0.10 | artifact -4.74 | other -5.19
+ws_1_casse-noix__nom__1,casse-noix,"Instrument pour casser les noix, ustensile de cuisine pour casser les noix.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.40 | institution -6.04
+ws_1_moteur_à_allumage_par_étincelles__nom__1,moteur_à_allumage_par_étincelles,"Moteur à allumage commandé fonctionnant suivant le cycle de Beau de Rochas. Il s’agit d’un terme générique pour désigner, par opposition au moteur Diesel, des moteurs fonctionnant à l’essence, à l’alcool, aux gaz de pétrole liquéfiés, etc.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.32 | object -5.71
+ws_1_crossectomie__nom__1,crossectomie,Résection de la crosse de la veine saphène interne et des veinules affluentes. C’est un traitement des varices de la jambe.,act,act,dynamic_situation,dynamic_situation,act -0.10 | other -3.55 | event -4.62
+ws_1_bioenrichissement_génétique__nom__1,bioenrichissement_génétique,Amélioration de la richesse nutritionnelle des plantes alimentaires par sélection génétique ou par transfert de gènes.,event,act,dynamic_situation,dynamic_situation,act -0.12 | other -3.01 | event -4.59
+ws_1_indolent__nom__1,indolent,Personne nonchalante.,person,person,animate,animate,person -0.04 | food -5.80 | state -5.87
+ws_1_grandes_vacances__nom__1,grandes_vacances,Vacances scolaires d’été.,time,time,time,time,time -0.39 | act -2.88 | event -3.26
+ws_1_noces_d’or__nom__1,noces_d’or,Célébration des cinquante ans de mariage.,act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.54 | act*cognition -4.98
+ws_1_quesnellisme__nom__1,quesnellisme,"Doctrine, condamnée par l’Église, de Pasquier Quesnel, prêtre de l’Oratoire, qui enseignait que la grâce de Dieu est l’opération de sa toute-puissance, à laquelle rien ne peut résister.",cognition,cognition,information,information,cognition -0.07 | attribute -4.99 | act*cognition -5.01
+ws_6_couverture__nom__1,couverture,Garantie donnée pour assurer un paiement.,cognition,act,information,dynamic_situation,act -1.01 | cognition -1.67 | act*cognition -1.71
+ws_1_échée__nom__1,échée,Ancienne unité de longueur de l’industrie lainière en France.,quantity,quantity,quantity,quantity,quantity -0.14 | cognition -4.36 | attribute -4.38
+ws_3_redondance__nom__1,redondance,"Doublement (ou plus) d’un système de contrôle, de pilotage, etc. pour améliorer sa fiabilité.",act,relation,dynamic_situation,stative_situation,relation -0.76 | state -2.19 | attribute -2.44
+ws_1_sidéen__nom__1,sidéen,Personne affectée par le sida.,person,person,animate,animate,person -0.03 | food -5.88 | state -5.89
+ws_3_brûlure__nom__1,brûlure,"Altérations produites sur les végétaux au printemps, soit par l’action du soleil, soit par l’effet de la gelée ou du vent.",event,event,dynamic_situation,dynamic_situation,event -0.80 | object -1.51 | other -2.50
+ws_1_aéropathie__nom__1,aéropathie,Réaction provoquée par des changements de pression atmosphérique.,event,event,dynamic_situation,dynamic_situation,event -0.20 | other -3.25 | phenomenon -3.52
+ws_1_panicaut_bleu_des_Alpes__nom__1,panicaut_bleu_des_Alpes,Synonyme de panicaut des Alpes (espèce de plantes).,plant,plant,inanimate,inanimate,plant -0.09 | object -4.75 | animal -4.92
+ws_1_Hardricourtois__nom__1,Hardricourtois,"Habitant de Hardricourt, commune française située dans le département des Yvelines.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.04
+ws_1_péricline__nom__1,péricline,"Ensemble des bractées qui entourent l’assemblage des fleurs, dans les plantes composées.",plant,plant,inanimate,inanimate,plant -0.08 | object -4.85 | body -4.95
+ws_2_chiotte__nom__1,chiotte,"Cuvette de toilette, ou autre réceptacle conçu pour recevoir le produit de la défécation de l’humain.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.45 | object -5.92
+ws_2_gluten__nom__1,gluten,"Matière tenace dont on croyait qu’elle servait à lier ensemble les parties composant un corps solide, tel que les pierres, etc.",substance,substance,inanimate,inanimate,substance -0.09 | object -4.72 | phenomenon -4.93
+ws_1_perruche_de_Barraband__nom__1,perruche_de_Barraband,"Grande perruche du genre Polytelis, au plumage vert avec, chez le mâle, du jaune aux joues et au front et du rouge à la gorge ; elle vit dans les bois d’eucalyptus du sud-est de l’Australie.",animal,animal,animate,animate,animal -0.07 | attribute -5.57 | plant -5.59
+ws_1_métosulam__nom__1,métosulam,"Substance phytosanitaire, de formule brute C14H13Cl2N5O4S, à usage d’herbicide de nombreuses dicotylédones et utilisable dans les cultures de maïs.",substance,substance,inanimate,inanimate,substance -0.08 | object -5.18 | phenomenon -5.20
+ws_1_Carbonnais__nom__1,Carbonnais,"Habitant de Carbonne, commune française située dans le département de la Haute-Garonne.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.04
+ws_1_néllore__nom__1,néllore,Variante de nélore (race de bovins).,animal,animal,animate,animate,animal -0.07 | plant -5.30 | attribute -5.58
+ws_1_paneton__nom__1,paneton,"Petit panier tressé en osier, dont l’intérieur est tapissé d’un tissu en coton épais ou en lin.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.26 | act -5.99
+ws_3_Montlauraise__nom__1,Montlauraise,"Habitante de Montlaur, commune française située dans le département de l’Aveyron.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.10
+ws_1_habillure__nom__1,habillure,Point de jonction d’un treillage.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -5.00 | object -5.11
+ws_1_lanier__nom__1,lanier,Femelle du laneret.,animal,animal,animate,animate,animal -0.07 | plant -5.21 | object -5.56
+ws_1_Elliantaise__nom__1,Elliantaise,"Habitante d’Elliant, commune française située dans le département du Finistère.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.12
+ws_2_Katangais__nom__1,Katangais,"Surnom des anciens mercenaires ayant combattu au Katanga entre 1960 et 1963, et revenus en France.",person,person,animate,animate,person -0.04 | groupxperson -5.54 | state -5.66
+ws_1_retzite__nom__1,retzite,Synonyme de stilbite.,object,phenomenon,inanimate,dynamic_situation,phenomenon -1.03 | event -1.06 | other -2.79
+ws_1_perfusion__nom__1,perfusion,Introduction lente et continue d’un médicament ou de sang dans un organisme.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.57 | act*cognition -4.96
+ws_3_équarrissage__nom__1,équarrissage,Chacune des deux dimensions transversales d’une poutre façonnée.,attribute,artifact,stative_situation,inanimate,artifact -0.72 | quantity -1.83 | attribute -2.71
+ws_1_ochréa__nom__1,ochréa,Variante de ocréa.,plant,plant,inanimate,inanimate,plant -0.32 | object -2.24 | animal -3.65
+ws_1_glande_submandibulaire__nom__1,glande_submandibulaire,Synonyme de glande sous-maxillaire.,body,body,inanimate,inanimate,body -0.09 | plant -4.98 | object -5.09
+ws_1_viognier__nom__1,viognier,Cépage donnant de petits raisins blancs réunis en petites grappes compactes. Il est utilisé notamment au nord de la vallée du Rhône. En France en 2009 on en cultivait plus de 4000 hectares.,plant,food,inanimate,inanimate,food -0.90 | plant -0.95 | person -4.16
+ws_1_vocem__nom__1,vocem,"Nom qu’on donne au 5e dimanche après Pâques, parce que l’introït commence par ce mot latin.",time,time,time,time,time -0.24 | cognition -3.10 | communication -4.22
+ws_1_Saint-Mauriçais__nom__1,Saint-Mauriçais,"Habitant de Saint-Maurice-de-Ventalon, commune du département de la Lozère, en France.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.95
+ws_1_Audignois__nom__1,Audignois,"Habitant d’Audigny, commune française située dans le département de l’Aisne.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.02
+ws_1_belouse__nom__1,belouse,Pièce métallique montée sur les tours des potiers d’étain.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.27 | object -5.85
+ws_1_cold_emailing__nom__1,cold_emailing,"Technique de prospection consistant à envoyer des courriers électroniques à des prospects professionnels, sans contact ou interaction préalable, afin de présenter les produits ou services d’une entreprise.",act,act,dynamic_situation,dynamic_situation,act -0.10 | act*cognition -3.75 | other -3.88
+ws_3_Ressonnaise__nom__1,Ressonnaise,"Habitante de Ressons-l’Abbaye, commune française située dans le département de l’Oise.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.07
+ws_1_Freslois__nom__1,Freslois,"Habitant de Fresles, commune française située dans le département de la Seine-Maritime.",person,person,animate,animate,person -0.03 | food -5.90 | state -5.99
+ws_1_Sinagot__nom__1,Sinagot,"Habitant de Séné, commune française située dans le département du Morbihan.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.05
+ws_1_Sept-Insulaire__nom__1,Sept-Insulaire,"Habitant, citoyen, ou personne originaire de la République des Sept-Îles.",person,person,animate,animate,person -0.03 | food -5.91 | state -5.95
+ws_1_boite__nom__2,boite,Variante de boîte. (orthographe traditionnelle),artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.77 | object -5.46
+ws_1_roselin_cramoisi__nom__1,roselin_cramoisi,"Espèce de petit oiseau passereau d’Eurasie, voisin des pinsons, dont le mâle mature a la tête, le poitrail et le croupion rose carminé, le ventre blanc et les ailes brun sombre avec deux barres estompées.",animal,animal,animate,animate,animal -0.07 | attribute -5.57 | relation -5.61
+ws_1_découvite__nom__1,découvite,Variante de découd-vite.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.33 | institution -6.02
+ws_1_Chicagolaise__nom__1,Chicagolaise,Habitante de Chicago.,person,person,animate,animate,person -0.03 | food -5.88 | state -6.12
+ws_9_écaille__nom__1,écaille,Nom des ardoises étroites et arrondies dans le bout de la partie visible servant à la couverture des dômes.,artifact,artifact,inanimate,inanimate,artifact -0.09 | object -4.16 | substance -4.48
+ws_1_Parthenaisien__nom__1,Parthenaisien,"Habitant de Parthenay, commune française située dans le département des Deux-Sèvres.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.01
+ws_1_minnéola__nom__1,minnéola,"Cultivar de tangelo, résultat de l’hybridation entre un mandarinier (Citrus reticulata ssp. Drancy) et un pomelo (Citrus paradisi spp. Duncan).",plant,plant,inanimate,inanimate,plant -0.08 | object -4.83 | animal -5.14
+ws_1_Valennoise__nom__1,Valennoise,"Habitante de Valennes, commune française située dans le département de la Sarthe.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.12
+ws_1_Barzanaise__nom__1,Barzanaise,"Habitante de Barzan, commune française située dans le département de la Charente-Maritime.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.11
+ws_1_salamandre_alpestre__nom__1,salamandre_alpestre,Synonyme de salamandre noire (espèce d’animal).,animal,animal,animate,animate,animal -0.07 | plant -5.54 | object -5.63
+ws_3_Méganticois__nom__1,Méganticois,"Peuplement archéologique de la région, remontant du troisième au sixième millénaires avant Jésus-Christ.",object,groupxperson,inanimate,animate,groupxperson -1.41 | other -1.55 | institution -1.88
+ws_1_homophobie__nom__1,homophobie,Aversion pour ses semblables.,feeling,attribute,stative_situation,stative_situation,attribute -0.69 | feeling -1.13 | state -3.25
+ws_5_carde__nom__1,carde,Instrument dont on se servait pour carder les cheveux destinés à garnir une perruque ou pour nettoyer les limes encrassées.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.41 | object -5.97
+ws_1_classisme__nom__1,classisme,Discrimination fondée sur la classe sociale.,cognition,cognition,information,information,cognition -0.28 | attribute -2.18 | state -4.00
+ws_3_flambe__nom__1,flambe,Sorte d’iris.,plant,plant,inanimate,inanimate,plant -0.10 | object -4.40 | animal -4.61
+ws_1_inuinnaqtun__nom__1,inuinnaqtun,Langue inuite parlée sur l’ile Victoria et la région de Kitikmeot au Nunavut et aux Territoires du Nord-Ouest.,communication,communication,information,information,communication -0.23 | cognition -4.20 | body -4.30
+ws_1_petite_marouette__nom__1,petite_marouette,Synonyme de marouette poussin (oiseau).,animal,animal,animate,animate,animal -0.07 | attribute -5.62 | relation -5.63
+ws_1_fadaise__nom__1,fadaise,"Propos qui n’a aucun intérêt, aucune saveur.",cognition,cognition,information,information,cognition -0.08 | act*cognition -4.07 | artifact*cognition -5.23
+ws_7.b_eau__nom__1,eau,Liquide amniotique qui est exhalé par l’amnios et qui environne le fœtus pendant toute la durée de la gestation.,substance,substance,inanimate,inanimate,substance -0.10 | phenomenon -4.51 | object -4.95
+ws_1_activité_optique__nom__1,activité_optique,Propriété qu’a une entité chimique ou physique chirale de faire tourner le plan de polarisation d’un faisceau de lumière polarisée plane.,attribute,attribute,stative_situation,stative_situation,attribute -0.09 | state -3.90 | act -5.07
+ws_3_clé_de_voute__nom__1,clé_de_voute,"Personne sur laquelle repose une affaire, sa réussite ou son échec.",person,person,animate,animate,person -0.03 | food -6.06 | state -6.12
+ws_4_Condataise__nom__1,Condataise,"Habitante de Condat-lès-Montboissier, commune française située dans le département du Puy-de-Dôme.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.07
+ws_2_Calédonien__nom__1,Calédonien,Personne habitant la Nouvelle-Calédonie.,person,person,animate,animate,person -0.03 | food -5.92 | state -6.01
+ws_1_coercivité__nom__1,coercivité,"Propriété d’une fonction réelle d’être coercive, c’est-à-dire de tendre vers l’infini à l’infini.",attribute,attribute,stative_situation,stative_situation,attribute -0.07 | state -4.62 | cognition -5.18
+ws_1_oïrate__nom__1,oïrate,"Langue mongole parlée en Chine, en Mongolie, en Russie et au Kirghizistan par les Oïrates et les Kalmouks.",communication,communication,information,information,communication -0.23 | cognition -4.23 | body -4.24
+ws_2_auto-isolement__nom__1,auto-isolement,Fait pour une personne ou un groupe de personnes de se couper des autres ou du reste de la collectivité.,other,state,other,stative_situation,state -0.15 | attribute -3.56 | event -4.27
+ws_1_groupement_d’éléments_palindromiques_et_d’espaceurs__nom__1,groupement_d’éléments_palindromiques_et_d’espaceurs,"Série de courtes répétitions palindromiques nucléotidiques, régulièrement séparées par des espaceurs et présentes dans le chromosome de nombreuses archées et bactéries.",other,object,other,inanimate,object -0.43 | body -2.77 | other -3.42
+ws_1_lettre_de_transport_maritime__nom__1,lettre_de_transport_maritime,Document non négociable faisant preuve du contrat de transport maritime et des caractéristiques de la marchandise chargée.,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.62 | act*cognition -2.70 | cognition -2.96
+ws_1_rimbombo__nom__1,rimbombo,Retentissement.,event,event,dynamic_situation,dynamic_situation,event -0.20 | other -3.01 | phenomenon -3.89
+ws_1_zonier__nom__2,zonier,"Résultat du découpage d’un territoire en zones, en fonction de l’exposition aux risques.",artifact,other,inanimate,other,other -1.59 | quantity -2.08 | object -2.20
+ws_1_Barraband__nom__1,Barraband,"Habitant de Saint-Chély-d’Apcher, commune française située dans le département de la Lozère.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.03
+ws_1_lobbysme__nom__1,lobbysme,Variante orthographique de lobbyisme.,act,act,dynamic_situation,dynamic_situation,act -0.33 | cognition -2.56 | other -2.94
+ws_1_lipobrachie__nom__1,lipobrachie,Absence des bras chez un fœtus monstrueux.,state,state,stative_situation,stative_situation,state -0.19 | attribute -3.47 | event -3.81
+ws_8_Varennoise__nom__1,Varennoise,"Habitante de Varennes-Jarcy, commune française située dans le département de l’Essonne.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.10
+ws_1_panure__nom__1,panure,"Miettes de pain dont on saupoudre certains aliments (escalopes, par exemple), avant de les faire cuire.",food,food,inanimate,inanimate,food -0.12 | substance -4.17 | plant -5.13
+ws_4_cas__nom__1,cas,Définition manquante ou à compléter. (Ajouter),other,cognition,other,information,cognition -0.26 | state -3.24 | event -3.78
+ws_1_Puylaroquain__nom__1,Puylaroquain,"Habitant de Puylaroque, commune française située dans le département du Tarn-et-Garonne.",person,person,animate,animate,person -0.03 | food -5.88 | state -5.99
+ws_1_condo__nom__2,condo,Condensateur.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.29 | object -5.85
+ws_1_digestion_anaérobie__nom__1,digestion_anaérobie,Décomposition de biomasse à forte teneur en matière organique en biogaz par l’action de microorganismes et en l’absence d’oxygène gazeux.,event,event,dynamic_situation,dynamic_situation,event -0.22 | other -2.86 | act -3.88
+ws_1_Leucois__nom__1,Leucois,"Habitant de Leuc, commune française située dans le département de l’Aude.",person,person,animate,animate,person -0.03 | food -5.91 | state -6.01
+ws_1_Medeyrollois__nom__1,Medeyrollois,"Habitant de Medeyrolles, commune française située dans le département du Puy-de-Dôme.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.00
+ws_3_immixtion__nom__1,immixtion,Action d’un événement extérieur.,event,act,dynamic_situation,dynamic_situation,act -0.11 | other -3.08 | event -4.54
+ws_1_tête_nue__nom__1,tête_nue,Sans couvre-chef.,state,person,stative_situation,animate,person -0.08 | state -4.10 | attribute -5.22
+ws_2_jigger__nom__1,jigger,Dispositif transformateur servant à coupler les circuits radioélectriques.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.36 | object -5.97
+ws_2_amour__nom__1,amour,"Plaisir, intérêt, voire obsession.",feeling,feeling,stative_situation,stative_situation,feeling -0.14 | phenomenon -4.73 | state -4.78
+ws_1_Poliénoise__nom__1,Poliénoise,"Habitante de Poliénas, commune française située dans le département de l’Isère.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.11
+ws_2_mignonne__nom__1,mignonne,Terme affectueux utilisé entre des amies.,person,person,animate,animate,person -0.11 | attribute -4.02 | state -4.51
+ws_1.a_pointement__nom__1,pointement,Saillies de roches plus dures au milieu d’un terrain d’une autre nature.,object,object,inanimate,inanimate,object -0.11 | other -4.69 | plant -4.93
+ws_3_voisinage__nom__1,voisinage,"Espace, lieu ou région qui se trouve à faible distance du point considéré, qu’il soit ou non habité.",object,object,inanimate,inanimate,object -0.35 | artifact -2.91 | other -3.01
+ws_1_Apocynacées__nom__1,Apocynacées,Famille de plantes dicotylédones (Apocynaceae) dont font partie le laurier-rose et les pervenches. Elle comprend plus 20 000 espèces groupées en environ 640 genres.,plant,plant,inanimate,inanimate,plant -0.08 | object -4.85 | animal -5.12
+ws_2_patte_folle__nom__1,patte_folle,Personne présentant ce handicap.,person,person,animate,animate,person -0.03 | food -5.94 | state -5.96
+ws_1_Beblenheimois__nom__1,Beblenheimois,"Habitant de Beblenheim, commune française située dans le département du Haut-Rhin.",person,person,animate,animate,person -0.03 | food -5.89 | state -6.00
+ws_1_Calmeillenne__nom__1,Calmeillenne,"Habitante de Calmeilles, commune française située dans le département des Pyrénées-Orientales.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.12
+ws_1_framing__nom__1,framing,Incorporer une page web d’un site au sein d’un autre.,act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.68 | act*cognition -4.29
+ws_1_damnée__nom__1,damnée,"Femme condamné aux peines de l’enfer, ou qui souffre de nombreux maux.",person,person,animate,animate,person -0.03 | food -5.95 | state -6.04
+ws_2_horloge__nom__1,horloge,Appareil muni d’un grand cadran à aiguilles placé dans un endroit apparent et destiné à marquer et à sonner les heures.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.15 | institution -5.89
+ws_1_oariste__nom__1,oariste,Variante de oaristys.,act,person,dynamic_situation,animate,person -0.19 | cognition -3.16 | communication -3.75
+ws_2_vaisselle__nom__1,vaisselle,Objets en métal précieux servant à l’usage de la table d’un seigneur.,other,artifact,other,inanimate,artifact -0.06 | other -4.36 | act -5.36
+ws_1_point_du_jour__nom__1,point_du_jour,"Le matin, juste avant le lever du soleil.",time,time,time,time,time -0.18 | event -4.06 | phenomenon -4.40
+ws_3_Roburien__nom__1,Roburien,"Habitant de Rouvres-en-Xaintois, commune française située dans le département des Vosges.",person,person,animate,animate,person -0.03 | food -5.90 | state -6.00
+ws_6_chignole__nom__1,chignole,Caravane ou roulotte.,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.23 | object -6.00
+ws_1_titilleur__nom__1,titilleur,"Personne dont le rôle est de susciter ou d’exciter un désir, ou du moins ses manifestations.",person,person,animate,animate,person -0.03 | food -5.96 | state -6.21
+ws_1_bonisseur__nom__1,bonisseur,Saltimbanque qui attire les chalands au spectacle.,person,person,animate,animate,person -0.03 | food -5.91 | state -6.20
+ws_1_ville_Zoom__nom__1,ville_Zoom,"Ville qui connaît une croissance démographique et économique rapide grâce au développement du télétravail, en particulier depuis la pandémie de Covid-19 de 2019.",institution,institution,institution,institution,institution -0.23 | other -2.42 | artifact -4.24
+ws_2_pendeur__nom__2,pendeur,Bourreau qui exécute le condamné au moyen de la pendaison.,person,person,animate,animate,person -0.03 | food -5.91 | state -6.20
+ws_4_Cambronnais__nom__1,Cambronnais,Habitant de Cambron-Casteau en Belgique.,person,person,animate,animate,person -0.03 | food -5.89 | state -5.99
+ws_38_Villeneuvoise__nom__1,Villeneuvoise,"Habitante de Villeneuve-sur-Bellot, commune française située dans le département de la Seine-et-Marne.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.05
+ws_5_Saint-Georgienne__nom__1,Saint-Georgienne,"Habitante de Saint-Georges-des-Gardes, commune française située dans le département du Maine-et-Loire.",person,person,animate,animate,person -0.03 | food -5.86 | state -6.08
+ws_1_Mansanaise__nom__1,Mansanaise,"Habitante de Mansan, commune française située dans le département des Hautes-Pyrénées.",person,person,animate,animate,person -0.03 | food -5.87 | state -6.11
+ws_1_soporifique__nom__1,soporifique,"Substance qui a la vertu d’endormir, d’assoupir.",substance,substance,inanimate,inanimate,substance -0.09 | phenomenon -4.85 | object -5.12
+ws_1_mois_solaire__nom__1,mois_solaire,Durée pendant laquelle la longitude du soleil est entre 30n±15° (n : entier) sur l’écliptique à partir du point vernal.,time,time,time,time,time -0.13 | cognition -4.72 | event -4.80
+ws_1_biseautage__nom__1,biseautage,Action de biseauter.,act,act,dynamic_situation,dynamic_situation,act -0.10 | other -3.24 | act*cognition -4.92
+ws_1_paracuta__nom__1,paracuta,"Autre nom de la bécune, poisson de la famille des Sphyraenidae.",animal,animal,animate,animate,animal -0.07 | object -5.54 | plant -5.56
+ws_1_républicanisation__nom__1,républicanisation,"Action de devenir républicain ou républicaine, d’acquérir le caractère d’une république, ou résultat de cette action.",other,act,other,dynamic_situation,act -0.31 | other -2.02 | event -3.03
+ws_3_dodinage__nom__1,dodinage,"Technique de polissage des clous à tapisser, qui consiste à les secouer dans un sac remplis d’émeri ou de grès pilé.",act,act,dynamic_situation,dynamic_situation,act -0.07 | other -3.75 | act*cognition -4.99
+ws_2_démence__nom__1,démence,"Démarche, action, conduite qui indique de la déraison, de l’extravagance.",act,act,dynamic_situation,dynamic_situation,act -0.82 | event -1.47 | other -2.11
+ws_1_Pr.__nom__1,Pr.,Professeur.,person,person,animate,animate,person -0.03 | food -5.89 | state -6.09
+ws_3_visiteuse__nom__1,visiteuse,Ouvrière qui procède au visitage.,person,person,animate,animate,person -0.03 | food -5.94 | artifact -6.16
+ws_4_enluminure__nom__1,enluminure,Style trop chargé de couleur.,attribute,cognition,stative_situation,information,cognition -0.09 | attribute -4.07 | act*cognition -4.82
+ws_1_voisinage__nom__1,voisinage,Proximité d’un lieu à l’égard d’un autre.,relation,relation,stative_situation,stative_situation,relation -0.61 | attribute -2.87 | state -2.95
+ws_2_voisinage__nom__1,voisinage,Lieu situé à proximité d’un autre.,relation,object,stative_situation,inanimate,object -1.64 | other -1.66 | artifact -2.27
+ws_4_voisinage__nom__1,voisinage,Proximité d’un événement.,relation,relation,stative_situation,stative_situation,relation -0.61 | attribute -2.81 | state -3.08
+ws_6_voisinage__nom__1,voisinage,Ensemble des rapports existant entre les personnes habitant à proximité les unes des autres ; comportement des voisins.,other,relation,other,stative_situation,relation -0.75 | state -2.35 | attribute -2.92
+ws_7_voisinage__nom__1,voisinage,Enquête auprès du voisinage.,act,act,dynamic_situation,dynamic_situation,act -0.11 | other -3.57 | act*cognition -3.59
+ws_8_voisinage__nom__1,voisinage,Proximité d’une partie du corps.,relation,relation,stative_situation,stative_situation,relation -0.62 | attribute -2.72 | state -2.92
+ws_9_voisinage__nom__1,voisinage,Proximité d’un repère.,relation,relation,stative_situation,stative_situation,relation -0.65 | attribute -2.51 | state -2.92
+ws_10_voisinage__nom__1,voisinage,Voisinage d’un point x dans un espace topologique : partie contenant un ouvert auquel appartient ce point x.,cognition,quantity,information,quantity,quantity -0.78 | cognition -1.39 | attribute -3.08
+ws_11_voisinage__nom__1,voisinage,"Choses qui sont rapprochées, rassemblées.",other,relation,other,stative_situation,relation -0.66 | phenomenon -3.28 | attribute -3.30
+ws_1_pièce__nom__1,pièce,"Chacun des éléments d’un ensemble défini. → voir pièce détachée, de toutes pièces, juger sur pièces, pièce à pièce et pièce par pièce",artifact,quantity,inanimate,quantity,quantity -1.41 | other -1.52 | cognition -2.17
+ws_2_pièce__nom__1,pièce,Élément composite d’un ensemble.,artifact,artifact,inanimate,inanimate,artifact -0.07 | other -4.14 | object -5.20
+ws_3_pièce__nom__1,pièce,Morceau permettant de constituer une image. → voir pièce de puzzle,artifact,cognition,inanimate,information,cognition -0.66 | artifact -2.31 | other -2.57
+ws_4_pièce__nom__1,pièce,Morceau de viande acheté ou vendu en boucherie. → voir pièce de boucherie,food,food,inanimate,inanimate,food -0.15 | artifact -4.18 | artifact*cognition -4.77
+ws_5_pièce__nom__1,pièce,Élément constitutif d’une partie ou de la totalité d’une charpente en bois ou métallique. → voir pièce de charpente et pièce de pont,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.02 | object -5.59
+ws_6_pièce__nom__1,pièce,Objet caractéristique d’un ensemble défini. → voir pièce de collection,artifact,artifact,inanimate,inanimate,artifact -0.11 | other -3.50 | artifact*cognition -4.96
+ws_7_pièce__nom__1,pièce,Écrit relatant un fait historique. → voir pièce d’archive et pièce d’archives,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.70 | cognition -1.78 | act*cognition -2.72
+ws_8_pièce__nom__1,pièce,Partie vestimentaire d’un costume. → voir costume trois pièces,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.90 | act -5.79
+ws_9_pièce__nom__1,pièce,"Partie d’un logement ou d’une maison. → voir trois pièces, quatre pièces, cinq pièces et …",artifact,artifact,inanimate,inanimate,artifact -0.07 | other -4.14 | object -5.34
+ws_10_pièce__nom__1,pièce,Récipient pour servir la nourriture. → voir pièce de vaisselle,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.33 | object -6.00
+ws_11_pièce__nom__1,pièce,"Composant spécifique d’un assemblage fonctionnel. → voir pièce mobile, pièce fixe et …",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.82 | object -5.53
+ws_12_pièce__nom__1,pièce,Élément extrait d’un ensemble d’éléments de même nature.,quantity,artifact,quantity,inanimate,artifact -0.10 | other -3.63 | object -4.74
+ws_13_pièce__nom__1,pièce,"Monnaie d’échange métallique et ronde. → voir pièce de monnaie, donner la pièce, pièce jaune et …",artifact,possession,inanimate,possession,possession -0.15 | other -4.12 | quantity -4.14
+ws_14_pièce__nom__1,pièce,"Canon à longue portée. → voir pièce d’artillerie, pièce de canon, pièce de siège, pièce de campagne, équipe de pièce et chef de pièce",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -4.93 | institution -5.72
+ws_15_pièce__nom__1,pièce,Document justifiant de l’identité. → voir pièce d’identité,artifact*cognition,artifact,inanimate*information,inanimate,artifact -1.32 | artifact*cognition -1.35 | other -2.56
+ws_16_pièce__nom__1,pièce,Document envoyé avec un mail. → voir pièce jointe et pièce attachée,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.63 | cognition -2.73 | act*cognition -2.94
+ws_17_pièce__nom__1,pièce,Document de la comptabilité d’une entreprise. → voir pièce comptable et pièce de caisse,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.59 | act*cognition -3.03 | cognition -3.05
+ws_18_pièce__nom__1,pièce,Document d’un dossier de procédure. → voir pièce pénale,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.59 | cognition -2.89 | act*cognition -3.02
+ws_19_pièce__nom__1,pièce,Matériel pyrotechnique entrant dans la composition d’un feu d’artifice. → voir pièce d’artifice,artifact,artifact,inanimate,inanimate,artifact -0.04 | other -4.87 | object -5.70
+ws_20_pièce__nom__1,pièce,"Résultat de la fragmentation d’une chose compacte. → voir mettre en pièces, tout d’une pièce et …",artifact,quantity,inanimate,quantity,quantity -1.03 | other -1.75 | artifact -2.52
+ws_21_pièce__nom__1,pièce,Partie d’un corps résultant d’une amputation. → voir pièce anatomique,object,artifact,inanimate,inanimate,artifact -0.60 | body -1.81 | object -2.32
+ws_22_pièce__nom__1,pièce,"Morceau découpé dans un animal. → voir pièce de bœuf, pièce de volaille et pièce du boucher",other,artifact,other,inanimate,artifact -0.88 | food -1.16 | artifact*cognition -3.61
+ws_23_pièce__nom__1,pièce,Part de tarte.,other,food,other,inanimate,food -0.12 | artifact -4.93 | person -4.97
+ws_25_pièce__nom__1,pièce,Morceau d’un ensemble obtenu par découpage.,artifact,quantity,inanimate,quantity,quantity -0.85 | other -1.98 | artifact -2.46
+ws_26_pièce__nom__1,pièce,"Petit morceau d’étoffe, de toile, de métal, etc., qu’on coud, qu’on met à des choses de même nature, pour les raccommoder, les rapiécer, lorsqu’elles sont trouées.",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.85 | object -5.72
+ws_27_pièce__nom__1,pièce,"Figurine des jeux de plateau, en particulier aux échecs. → voir échange de pièces.",artifact,artifact,inanimate,inanimate,artifact -0.10 | other -3.96 | object -5.07
+ws_28_pièce__nom__1,pièce,"Objet (spatial ou temporel) formant un tout compact identifiable pouvant appartenir à un ensemble plus général. → voir pièce de gibier, pièce de théâtre, pièce à main et être près de ses pièces",artifact,artifact,inanimate,inanimate,artifact -0.30 | other -2.44 | object -3.44
+ws_29_pièce__nom__1,pièce,Élément venant compléter un ensemble existant. → voir pièce rapportée et pièce ajoutée,artifact,artifact,inanimate,inanimate,artifact -0.06 | other -4.39 | object -5.51
+ws_30_pièce__nom__1,pièce,Élément d’un ensemble fonctionnel pouvant être remplacé. → voir pièce de rechange,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.63 | object -5.52
+ws_31_pièce__nom__1,pièce,Document nécessaire à l’obtention d’un papier administratif. → voir pièce à fournir,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.69 | artifact -2.63 | other -2.88
+ws_32_pièce__nom__1,pièce,"Partie complète de matière formant un seul bloc. → voir pièce de bois, pièce de tissu, pièce de vin, pièce d’or, pièce de viande et …",artifact,artifact,inanimate,inanimate,artifact -0.14 | other -3.42 | object -3.82
+ws_33_pièce__nom__1,pièce,"Servant d’unité, de référence ou de support à une évaluation",artifact,artifact,inanimate,inanimate,artifact -1.09 | quantity -1.99 | other -2.29
+ws_34_pièce__nom__1,pièce,"Coupon de matière brute tissée. → voir pièce de drap, pièce de tissu, pièce de toile et …",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.73 | artifact*cognition -5.53
+ws_35_pièce__nom__1,pièce,"Tonneau contenant de 205 à 250 litres, suivant les régions.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.16 | object -5.79
+ws_36_pièce__nom__1,pièce,Contenu d’un tel tonneau.,other,quantity,other,quantity,quantity -1.26 | artifact -1.45 | other -1.97
+ws_37_pièce__nom__1,pièce,"Étendue de terrain d’une certaine culture → voir pièce de vigne, pièce de terre, pièce d’eau et …",artifact,object,inanimate,inanimate,object -0.13 | artifact -4.20 | other -4.23
+ws_38_pièce__nom__1,pièce,Parcelle de terrain.,artifact,object,inanimate,inanimate,object -0.67 | artifact -1.51 | other -2.64
+ws_39_pièce__nom__1,pièce,Résultat du fractionnement d’un ensemble dénombrable.,artifact,quantity,inanimate,quantity,quantity -0.40 | cognition -2.35 | attribute -3.16
+ws_40_pièce__nom__1,pièce,Plus petit élément d’un lot.,artifact,quantity,inanimate,quantity,quantity -1.24 | artifact -1.47 | other -1.78
+ws_41_pièce__nom__1,pièce,Base de calcul d’un coût industriel.,artifact,quantity,inanimate,quantity,quantity -1.06 | possession -1.58 | cognition -1.92
+ws_42_pièce__nom__1,pièce,"Pièce de monnaie frappée en métal. → voir pièce d’or, pièce d’argent et pièce de bronze",artifact,possession,inanimate,possession,possession -0.29 | artifact -3.15 | other -3.22
+ws_43_pièce__nom__1,pièce,"Animal pouvant être comptabilisé. → voir pièce de volaille, pièce de gibier et pièce de bétail",animal,animal,animate,animate,animal -0.09 | object -4.98 | artifact -4.99
+ws_44_pièce__nom__1,pièce,Médaille offerte aux époux lors de la cérémonie de mariage. → voir pièce de mariage,artifact,artifact,inanimate,inanimate,artifact -0.07 | other -4.38 | artifact*cognition -4.93
+ws_45_pièce__nom__1,pièce,"Œuvre ou ouvrage de l’esprit, dont chacun fait un tout complet. → voir pièce de théâtre et pièce de musique",artifact*cognition,cognition,inanimate*information,information,cognition -0.46 | artifact*cognition -1.86 | act*cognition -2.91
+ws_46_pièce__nom__1,pièce,"Caractère d’un objet singulier. → voir pièce visée, petite pièce, pièce classique, pièce maîtresse, la meilleure pièce de son sac, pièce justificative et …",artifact,artifact,inanimate,inanimate,artifact -0.91 | attribute -1.24 | other -2.91
+ws_47_pièce__nom__1,pièce,Objet remarquablement travaillé par un artisan. → voir pièce d’orfèvrerie,artifact,artifact,inanimate,inanimate,artifact -0.06 | other -4.45 | object -5.46
+ws_48_pièce__nom__1,pièce,Objet rare pouvant faire partie d’une collection. → voir pièce de collection,artifact,artifact,inanimate,inanimate,artifact -0.09 | other -3.75 | artifact*cognition -5.10
+ws_49_pièce__nom__1,pièce,Morceau de bœuf non présentable mais particulièrement goûteux. → voir pièce du boucher,other,food,other,inanimate,food -0.11 | person -4.99 | plant -5.15
+ws_50_pièce__nom__1,pièce,"Composant d’un mécanisme en mouvement destiné à être remplacé régulièrement. → voir pièce d’usure, pièce d’occasion, pièce d’origine et …",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.97 | object -5.50
+ws_51_pièce__nom__1,pièce,Composition musicale spécifique. → voir pièce polyphonique et pièce instrumentale,cognition,cognition,information,information,cognition -0.50 | artifact*cognition -1.76 | act*cognition -2.92
+ws_52_pièce__nom__1,pièce,Preuve matérielle de la culpabilité d’un accusé. → voir pièce à conviction,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.78 | cognition -1.75 | act*cognition -2.90
+ws_54_pièce__nom__1,pièce,"Toute sorte d’écriture qui sert à quelque procès, tout ce qu’on produit pour établir son droit. → voir pièce parafée, pièce inventoriée, pièce arguée de faux, pièce arguée de nullité, pièce visée, pièce justificative et …",artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.61 | cognition -2.63 | artifact -3.03
+ws_55_pièce__nom__1,pièce,Document justifiant une opération comptable. → voir pièce comptable,artifact*cognition,artifact*cognition,inanimate*information,inanimate*information,artifact*cognition -0.60 | act*cognition -2.99 | cognition -3.01
+ws_56_pièce__nom__1,pièce,"Argent, monnaie.",possession,possession,possession,possession,possession -0.14 | quantity -4.27 | other -4.36
+ws_58_pièce__nom__1,pièce,"Figure géométrique découpant le champ, s’opposant aux meubles. → voir pièce diminuée",cognition,cognition,information,information,cognition -0.19 | artifact -3.01 | artifact*cognition -4.30
+ws_59_pièce__nom__1,pièce,Terme générique utilisé comme synonyme d’occurrence. Il sert à indiquer le nombre d’éléments du même type (pièce ou meuble) présents dans les armoiries.,cognition,cognition,information,information,cognition -0.28 | quantity -2.62 | attribute -3.61
+ws_60_pièce__nom__1,pièce,"Morceau de tissu épais et bien absorbant, généralement carré ou légèrement rectangulaire, qui sert à laver et essorer le sol.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.30 | object -5.84
+ws_1_couverture__nom__1,couverture,"Grande pièce d’étoffe épaisse couvrant le lit, se plaçant au-dessus des draps.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.25 | artifact*cognition -5.80
+ws_2_couverture__nom__1,couverture,Première page d’un ouvrage imprimé.,artifact,artifact*cognition,inanimate,inanimate*information,artifact*cognition -0.96 | cognition -1.74 | artifact -2.01
+ws_3_couverture__nom__1,couverture,Partie extérieure d’un livre servant à le protéger.,artifact,artifact,inanimate,inanimate,artifact -0.13 | artifact*cognition -3.67 | other -4.15
+ws_4_couverture__nom__1,couverture,Partie extérieure de la toiture.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -5.07 | object -5.22
+ws_5_couverture__nom__1,couverture,Garantie de protection donnée par un assureur.,act,act,dynamic_situation,dynamic_situation,act -0.56 | other -2.06 | act*cognition -2.76
+ws_7_couverture__nom__1,couverture,"Dépôt de titres ou d’espèces, que l’agent de change exige du client qui donne des ordres pour des marchés à terme.",possession,act,possession,dynamic_situation,act -0.22 | other -2.56 | possession -3.78
+ws_8_couverture__nom__1,couverture,Ce qui sert à cacher ou à dissimuler.,cognition,artifact,information,inanimate,artifact -0.83 | cognition -1.50 | other -2.38
+ws_9_couverture__nom__1,couverture,Fausse identité endossée ponctuellement par un agent secret ou un policier en mission d’infiltration.,state,state,stative_situation,stative_situation,state -0.98 | attribute -1.14 | cognition -2.45
+ws_10_couverture__nom__1,couverture,Ensemble des moyens militaires servant à se protéger d’une attaque.,act,artifact,dynamic_situation,inanimate,artifact -0.20 | other -2.78 | act -3.31
+ws_11_couverture__nom__1,couverture,Couche végétale recouvrant le sol.,object,object,inanimate,inanimate,object -0.34 | plant -2.09 | body -3.81
+ws_12_couverture__nom__1,couverture,Paillage.,artifact,artifact,inanimate,inanimate,artifact -0.46 | other -2.13 | act -2.89
+ws_13_couverture__nom__1,couverture,"La partie d’une surface, d’un territoire, d’une population, d’un ensemble qui est concerné par un service, une modification ou une intervention quelconque, souvent exprimé en termes d’un pourcentage ou d’une fraction.",attribute,quantity,stative_situation,quantity,quantity -0.18 | attribute -4.00 | other -4.15
+ws_14_couverture__nom__1,couverture,"Zones où peut être activé service téléphonique ou internet, ou un émetteur de radio ou télévision.",state,object,stative_situation,inanimate,object -1.68 | other -1.71 | artifact -1.87
+ws_15_couverture__nom__1,couverture,Action d’enquêter puis de relater l’enquête par les journaux.,act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.72 | act*cognition -4.11
+ws_16_couverture__nom__1,couverture,Une des plumes qui recouvrent la base des rémiges et des rectrices. [1],body,body,inanimate,inanimate,body -0.11 | plant -4.26 | object -4.77
+ws_17_couverture__nom__1,couverture,"Partie non visible du boîtier de la serrure, opposée au palastre.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.35 | object -5.73
+ws_18_couverture__nom__1,couverture,Matériau à irradier placé à la périphérie du cœur d’un réacteur à fission.,substance,artifact,inanimate,inanimate,artifact -0.50 | substance -1.54 | object -3.28
+ws_19_couverture__nom__1,couverture,"Équipement entourant le plasma thermonucléaire, destiné à absorber les neutrons issus des réactions de fusion et assurant la protection des structures et des composants, contribuant également à celle des personnes.",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.20 | object -5.65
+ws_20_couverture__nom__1,couverture,"Opération ou suite d’opérations de marché ayant pour but de couvrir, ou de compenser, totalement ou partiellement, un risque de variation d’un élément d’actif ou de passif, ce risque provenant d’une fluctuation des cours des titres, des devises ou des taux d’intérêt (ou des prix des matières premières pour les marchandises).",act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.62 | act*cognition -4.14
+ws_21_couverture__nom__1,couverture,Prise de données sur une zone déterminée afin d’en obtenir une représentation.,act,act,dynamic_situation,dynamic_situation,act -0.15 | other -3.19 | act*cognition -3.23
+ws_22_couverture__nom__1,couverture,"L’ensemble des données obtenues, ou leur représentation sous forme d’images brutes ou prétraitées.",cognition,cognition,information,information,cognition -0.31 | artifact*cognition -2.64 | act*cognition -3.45
+ws_23_couverture__nom__1,couverture,"Toiture en général, incluant charpente et couverture.",artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.82 | object -5.47
+ws_1_bouche__nom__1,bouche,"Organe de l’être humain, composé de deux lèvres horizontales situées au bas du visage, lui servant notamment à ingurgiter de la nourriture et de la boisson, à parler, à embrasser et à faire des expressions faciales. Note : Pour un animal, on dit normalement gueule.",body,body,inanimate,inanimate,body -0.10 | plant -5.04 | attribute -5.08
+ws_2_bouche__nom__1,bouche,Étape dans l’analyse sensorielle et la dégustation du vin.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.76 | act*cognition -4.68
+ws_4_bouche__nom__1,bouche,Nourriture.,food,food,inanimate,inanimate,food -0.14 | substance -3.57 | person -4.90
+ws_5_bouche__nom__1,bouche,"Service, officier de la bouche du roi : service, officier chargés autrefois de tout ce qui concernait les repas du roi et de sa famille.",other,institution,other,institution,institution -0.83 | other -1.78 | person -2.26
+ws_6_bouche__nom__1,bouche,Élargissement d’un cours d’eau lorsqu’il se joint à une mer.,object,object,inanimate,inanimate,object -0.60 | event -2.06 | other -2.62
+ws_7_bouche__nom__1,bouche,Détroit.,object,object,inanimate,inanimate,object -0.13 | artifact -4.19 | other -4.27
+ws_8_bouche__nom__1,bouche,Cavité plus ou moins large servant d’accès pour entrer ou sortir.,artifact,object,inanimate,inanimate,object -0.85 | artifact -0.90 | other -3.59
+ws_8.a_bouche__nom__1,bouche,Ouverture d’une adduction d’eau ou d’air.,artifact,artifact,inanimate,inanimate,artifact -0.08 | other -4.28 | object -4.78
+ws_8.b_bouche__nom__1,bouche,Ouverture du canon d’une arme à feu.,artifact,artifact,inanimate,inanimate,artifact -0.26 | other -3.01 | act -3.07
+ws_8.c_bouche__nom__1,bouche,Entrée d’une station de métro.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.96 | object -5.57
+ws_3_lascar__nom__1,lascar,"Hacker (fouineur), qui a tendance à forcer les systèmes informatiques et se mettre en position illégale.",person,person,animate,animate,person -0.03 | food -5.88 | state -6.24
+ws_1_immixtion__nom__1,immixtion,Action de s’immiscer dans les affaires d’autrui.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.73 | act*cognition -4.48
+ws_2_immixtion__nom__1,immixtion,Action de s’immiscer dans une succession.,act,act,dynamic_situation,dynamic_situation,act -0.08 | other -3.61 | act*cognition -4.48
+ws_1_direction__nom__1,direction,"Action de diriger, de régler l’exécution d’une action, d’administrer un établissement ou de conduire une personne.",act,act,dynamic_situation,dynamic_situation,act -0.09 | other -3.61 | act*cognition -4.24
+ws_2_direction__nom__1,direction,"Fonction, poste de directeur.",state,state,stative_situation,stative_situation,state -0.25 | attribute -3.36 | institution -3.67
+ws_3_direction__nom__1,direction,Personne ou ensemble des personnes qui dirigent.,other,groupxperson,other,animate,groupxperson -1.15 | other -1.44 | institution -1.65
+ws_5_direction__nom__1,direction,Ensemble de bureaux où sont installés un directeur et ses collaborateurs.,artifact,institution,inanimate,institution,institution -0.69 | other -1.31 | artifact -2.53
+ws_6_direction__nom__1,direction,"Étendue de la compétence d’un directeur, circonscription qui relève de son autorité.",institution,institution,institution,institution,institution -0.29 | other -2.08 | artifact -4.21
+ws_7_direction__nom__1,direction,Direction collégiale Où les décisions sont prises conjointement par plusieurs personnes d’égal pouvoir.,groupxperson,institution,animate,institution,institution -0.51 | other -1.63 | act -3.00
+ws_8_direction__nom__1,direction,"Côté vers lequel une personne ou une chose se dirige, est dirigée ou tournée ; voie suivie pour arriver à un point donné.",relation,attribute,stative_situation,stative_situation,attribute -0.59 | cognition -1.50 | relation -3.22
+ws_9_direction__nom__1,direction,Toutes directions Indication portée sur des panneaux de la circulation routière.,cognition,cognition,information,information,cognition -0.15 | attribute -3.50 | quantity -4.56
+ws_10_direction__nom__1,direction,"Orientation donnée à une entreprise, à une action etc. ; manière dont elle se développe.",attribute,attribute,stative_situation,stative_situation,attribute -0.23 | cognition -2.44 | state -3.81
+ws_11_direction__nom__1,direction,"Droite suivant laquelle se déplace ou s’oriente un corps, s’exerce une force.",relation,attribute,stative_situation,stative_situation,attribute -0.57 | cognition -1.44 | relation -3.37
+ws_12_direction__nom__1,direction,"Adopter une bonne, une mauvaise conduite.",act,act,dynamic_situation,dynamic_situation,act -0.15 | other -3.35 | attribute -3.99
+ws_13_direction__nom__1,direction,Ensemble des organes qui permettent d’orienter les roues directrices.,artifact,artifact,inanimate,inanimate,artifact -0.06 | other -4.53 | object -5.48
+ws_14_direction__nom__1,direction,"Fonction de directeur de conscience, qui guide par ses conseils la vie spirituelle d’une personne.",act,state,dynamic_situation,stative_situation,state -0.57 | act -2.11 | attribute -2.34
+ws_15_direction__nom__1,direction,"Propriété commune à des droites parallèles, ou à des objets portés par des droites parallèles tels que des segments ou des demi-droites, ou propriété d’un vecteur. Note : ne pas confondre “direction” et “sens” en géométrie.",attribute,attribute,stative_situation,stative_situation,attribute -0.20 | cognition -2.73 | state -4.10
+ws_1_indice__nom__1,indice,Signe apparent et probable qu’une chose existe ou s’est produite.,cognition,cognition,information,information,cognition -0.17 | quantity -4.23 | artifact*cognition -4.38
+ws_2_indice__nom__1,indice,Nombre permettant un classement ou une indexation.,quantity,quantity,quantity,quantity,quantity -0.17 | cognition -3.51 | attribute -4.38
+ws_3_indice__nom__1,indice,"Quotient, rapport ou ratio d’un nombre à un autre.",quantity,quantity,quantity,quantity,quantity -0.16 | attribute -4.08 | cognition -4.10
+ws_5_indice__nom__1,indice,"Notation de moindre corps, placée en position inférieure et à droite d’un élément du texte que l’indice complète; cette notation est utilisée entre autres pour numéroter des éléments d’ensembles dénombrables en mathématique ou exprimer des numéros atomiques en physique; l’indice est symétrique de l’exposant.",cognition,quantity,information,quantity,quantity -0.89 | cognition -1.10 | communication -3.00
+ws_6_indice__nom__1,indice,Coordonnée caractérisant la position d’une case d’un tableur.,cognition,cognition,information,information,cognition -0.19 | quantity -2.98 | communication -4.05
+ws_1_module__nom__1,module,Mesure arbitraire servant à établir les rapports de proportion entre toutes les parties d’un ouvrage d’architecture.,quantity,quantity,quantity,quantity,quantity -0.22 | attribute -3.20 | cognition -3.64
+ws_2_module__nom__1,module,Tout ce qui sert à mesurer.,quantity,artifact,quantity,inanimate,artifact -0.84 | quantity -1.65 | cognition -2.37
+ws_4_module__nom__1,module,Sous-ensemble.,other,quantity,other,quantity,quantity -0.15 | cognition -4.22 | other -4.48
+ws_4.a_module__nom__1,module,Élément simple d’une structure architecturale répétitive.,artifact,artifact,inanimate,inanimate,artifact -0.05 | other -4.64 | object -5.32
+ws_4.b_module__nom__1,module,"Pièce d’assemblage (dans divers domaines, notamment l’ameublement, le bricolage, l’industrie).",artifact,artifact,inanimate,inanimate,artifact -0.04 | other -5.13 | object -5.72
+ws_4.c_module__nom__1,module,"Unité d’enseignement (programme, cours, etc.) sur une durée déterminée.",cognition,cognition,information,information,cognition -0.53 | artifact*cognition -1.85 | act*cognition -2.93
+ws_4.d_module__nom__1,module,Partie du code source d’un logiciel qui peut être développée indépendamment.,cognition,artifact,information,inanimate,artifact -1.41 | cognition -1.58 | artifact*cognition -1.69
+ws_5_module__nom__1,module,Longueur d’un vecteur.,quantity,quantity,quantity,quantity,quantity -0.49 | attribute -1.70 | cognition -3.11
+ws_1_obédience__nom__1,obédience,Obéissance. Note : il ne se dit ordinairement qu’en parlant des religieux.,act,state,dynamic_situation,stative_situation,state -0.60 | attribute -1.20 | relation -3.92
+ws_2_obédience__nom__1,obédience,Ordre ou permission par écrit qu’un supérieur donne à un religieux ou à une religieuse pour aller en quelque endroit ou pour passer d’un couvent à un autre.,act*cognition,act,dynamic_situation*information,dynamic_situation,act -0.74 | act*cognition -1.31 | other -2.70
+ws_3_obédience__nom__1,obédience,Emploi particulier qu’un religieux ou une religieuse a dans son couvent.,attribute,state,stative_situation,stative_situation,state -0.17 | attribute -3.42 | other -4.45
+ws_4_obédience__nom__1,obédience,Maison religieuse qui dépend d’une maison principale.,institution,institution,institution,institution,institution -0.17 | other -2.81 | groupxperson -4.74
+ws_5_obédience__nom__1,obédience,"Groupe de loges partageant (en principe) des orientations communes, et souvent un rite commun.",institution,institution,institution,institution,institution -0.18 | other -2.75 | groupxperson -4.65
+ws_1_personnage__nom__1,personnage,"Personne ; avec une certaine idée de grandeur, d’autorité, d’importance sociale.",person,person,animate,animate,person -0.03 | food -5.99 | state -6.14
+ws_2_personnage__nom__1,personnage,Personne dont le sujet de dénigrement est alors qualifié par une épithète.,person,person,animate,animate,person -0.03 | food -6.02 | state -6.23
+ws_3_personnage__nom__1,personnage,"Personne mise en action dans un ouvrage dramatique ; en ce sens, il s’applique aux femmes comme aux hommes.",person,person,animate,animate,person -0.03 | food -6.04 | state -6.11
+ws_4_personnage__nom__1,personnage,"Ces mêmes personnes, par rapport aux comédiens qui les représentent.",person,person,animate,animate,person -0.08 | groupxperson -4.43 | state -5.44
+ws_5_personnage__nom__1,personnage,Personne qui figure dans un ouvrage narratif ou dans un roman.,person,person,animate,animate,person -0.03 | food -6.04 | state -6.13
+ws_6_personnage__nom__1,personnage,Manière dont on se conduit.,cognition,attribute,information,stative_situation,attribute -0.09 | state -3.65 | cognition -4.75
