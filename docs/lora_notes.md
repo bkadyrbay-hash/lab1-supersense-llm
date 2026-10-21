@@ -15,7 +15,8 @@ We use the same pre-quantized checkpoint as for ICL, `unsloth/Qwen2.5-7B-Instruc
 quantization), so both methods start from exactly the same weights. Two adjustments:
 
 - the checkpoint keeps only `lm_head` in 16-bit and quantizes every other linear layer, so the new classification
-  layer `score` would be created in 4-bit and could not be trained; we replace it with a 16-bit linear layer;
+  layer `score` would be created in 4-bit and could not be trained; we add `score` to the checkpoint's list of
+  modules kept in 16-bit (`llm_int8_skip_modules`) and initialise it at zero (uniform predictions at the start);
 - the checkpoint computes in bfloat16, which the T4 does not support; we set the compute dtype to float16.
 
 A first version quantized `Qwen/Qwen2.5-7B-Instruct` at load time instead; its training ran out of GPU memory
