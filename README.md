@@ -1,6 +1,7 @@
 # Classifying word-sense definitions into supersenses with LLMs
 
 Lab 1 of the M2 course NLP for Society (Marie Candito), Computational Linguistics.
+Team of two: Botakoz Kadyrbay and Alena Muravyeva ([@Alhassliebe](https://github.com/Alhassliebe)); the split of work is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 We classify French Wiktionary word senses (lemma + definition) into 25 **supersenses**
 (and, through a fixed mapping, 12 **hypersenses**) and compare:
